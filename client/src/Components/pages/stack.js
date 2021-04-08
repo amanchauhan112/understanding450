@@ -1,7 +1,4 @@
 import React from 'react';
-import './heading.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLinkedin ,faGithub,faWordpress,faTwitter,faFacebook} from '@fortawesome/free-brands-svg-icons'
 
 const Stack = () => {
   return (

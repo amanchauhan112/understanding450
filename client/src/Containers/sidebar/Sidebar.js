@@ -1,18 +1,9 @@
 import React, { useState } from 'react';
 
-// import {
-    // Nav,
-    // NavLink,
-    // Bars,
-    // NavMenu,
-    // NavBtn,
-    // NavBtnLink
-  // } from '../navbar/navbarElements';
-//-----------------------
 import './Sidebar.css';
 import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from '../sidebar/SidebarData';
-// import './navbar.css';
+
 
 import { IconContext } from 'react-icons';
 import {Link} from 'react-router-dom';

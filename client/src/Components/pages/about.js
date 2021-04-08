@@ -1,9 +1,4 @@
-// import React from 'react';
-// import '../css/heading.css';
 import myimg from '../../../src/background.png';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLinkedin ,faGithub,faWordpress,faTwitter,faFacebook} from '@fortawesome/free-brands-svg-icons'
-// import '../css/style.css';
 
 const About = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import './heading.css';
 import './style.css'
+
 const Home = () => {
   return (
     <div className="div" style={{textAlign:"center"}}>
