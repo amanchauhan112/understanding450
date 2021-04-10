@@ -24,7 +24,7 @@ const Home = () => {
   const classes = useStyles();
 
   return (
-    <div className="div" style={{textAlign:"center",overflow:"auto",display:"block"}}>
+    <div className="div" style={{textAlign:"center",overflow:"auto",display:"block",marginBottom:'5%'}}>
 {/* <div style={{backgroundColor:"blue",height:"50px",borderRadius:"30%"}}><a href="./array">Array</a></div> */}
 <div style={{display:'flex',justifyContent:"space-evenly"}}>
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
@@ -70,14 +70,14 @@ const Home = () => {
             STRING
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
+            Total Questions:43
           </Typography>
         </CardContent>
 
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/string" >
           Let's get started
         </Button>
        
@@ -97,14 +97,14 @@ const Home = () => {
             MATRIX
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
+            Total Questions:10
           </Typography>
         </CardContent>
 
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/matrix" >
           Let's get started
         </Button>
        
@@ -127,17 +127,17 @@ const Home = () => {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            STACK
+            STACK & QUEUE
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
+            Total Questions:38
           </Typography>
         </CardContent>
 
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/stack_queue" >
           Let's get started
         </Button>
        
@@ -193,7 +193,7 @@ const Home = () => {
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/linkedlist" >
           Let's get started
         </Button>
        
@@ -225,7 +225,7 @@ const Home = () => {
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/search_sort" >
           Let's get started
         </Button>
        
@@ -247,14 +247,14 @@ const Home = () => {
             BINARY TREES
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
+            Total Questions:35
           </Typography>
         </CardContent>
 
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/binarytree" >
           Let's get started
         </Button>
        
@@ -274,14 +274,14 @@ const Home = () => {
             BST
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
+            Total Questions:22
           </Typography>
         </CardContent>
 
       </CardActionArea>
       <CardActions>
 
-        <Button size="small" color="primary" href="/array" >
+        <Button size="small" color="primary" href="/bst" >
           Let's get started
         </Button>
        
