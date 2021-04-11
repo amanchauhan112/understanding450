@@ -11,6 +11,7 @@ import Array from '../src/Components/pages/array';
 import String from '../src/Components/pages/string';
 import Stack from '../src/Components/pages/stack';
 import Matrix from '../src/Components/pages/matrix';
+import Error from '../src/Components/pages/error';
 
 
 //answers
@@ -24,12 +25,13 @@ function App() {
     <Navbar/>
 
     <Switch>
-      <Route path="/" exact component={Home}></Route>
-      <Route path='/about' component={About} />
-      <Route path='/array' component={Array} />
-      <Route path='/matrix' component={Matrix} />
-      <Route path='/string' component={String} />
-      <Route path='/stack' component={Stack} />
+      <Route exact path="/" exact component={Home}></Route>
+      <Route exact path='/about' component={About} />
+      <Route exact path='/array' component={Array} />
+      <Route exact path='/matrix' component={Matrix} />
+      <Route exact path='/string' component={String} />
+      <Route exact path='/stack' component={Stack} />
+      <Route component={Error} />
 
 
       {/* //answers  */}

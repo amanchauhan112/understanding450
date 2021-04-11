@@ -1,48 +1,66 @@
-.font{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+.font {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
 }
 
-.text{
-    background-color: rgb(70, 70, 138);
-    opacity: 80%;
-    border-radius: 10%;
-    padding: 4%;
-    /* color: aliceblue; */
+.text {
+  background-color: rgb(70, 70, 138);
+  opacity: 80%;
+  border-radius: 10%;
+  padding: 4%;
+  /* color: aliceblue; */
 }
 
-a{
-    /* color: aliceblue; */
+a {
+  /* color: aliceblue; */
 }
 
-.heading{
-    text-align: center;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* color: aqua; */
-    /* background-color: yellow; */
-    border-radius: 20%;
-margin-left: 40%;
-margin-right: 40%;
+.heading {
+  text-align: center;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: aqua; */
+  /* background-color: yellow; */
+  border-radius: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
 }
-
-.div
-{ 
-    height: 100vh;
-    margin:10px;
-    padding:10px ;
-    /* margin-bottom: 200px; */
-       }
-
 
 body {
-        margin: 10;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
-    }
+  margin: 10;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
 
-.content{
-        /* color:rgb(28, 245, 227); */
-        font-size: 25px;
-    }
+.content {
+  /* color:rgb(28, 245, 227); */
+  font-size: 25px;
+}
 
+.banner {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 20px;;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.banner h1 {
+    color: rgb(127, 167, 252);
+  
+  font-size: 40px;
+  
+  text-decoration: underline;
+}
+.banner h2 {
+  
+  font-size: 30px;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.banner h3 {
+  text-align: left;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 0 15%;
+}
