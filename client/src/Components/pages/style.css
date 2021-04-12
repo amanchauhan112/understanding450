@@ -11,10 +11,6 @@
   /* color: aliceblue; */
 }
 
-a {
-  /* color: aliceblue; */
-}
-
 .heading {
   text-align: center;
   font-style: italic;
@@ -27,15 +23,25 @@ a {
 }
 
 body {
-  margin: 10;
-  padding: 0;
+  /* margin: 10; */
+  /* padding: 0; */
   font-family: "Montserrat", sans-serif;
+ 
 }
 
 .content {
   /* color:rgb(28, 245, 227); */
   font-size: 25px;
 }
+
+.home_content{
+  text-align: center;
+    /* overflow:"auto"; */
+    /* display:"block",; */
+    /* margin-bottom:'5%'; */
+    margin-top:"20px";
+}
+
 
 .banner {
   background: rgba(0, 0, 0, 0.6);

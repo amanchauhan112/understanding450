@@ -24,9 +24,8 @@ const Home = () => {
   const classes = useStyles();
 
   return (
-    <div className="div" style={{textAlign:"center",overflow:"auto",display:"block",marginBottom:'5%'}}>
-{/* <div style={{backgroundColor:"blue",height:"50px",borderRadius:"30%"}}><a href="./array">Array</a></div> */}
-<div style={{display:'flex',justifyContent:"space-evenly"}}>
+    <div className="home_content" >
+<div style={{display:'flex',justifyContent:"space-evenly",marginTop:'40px'}}>
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
