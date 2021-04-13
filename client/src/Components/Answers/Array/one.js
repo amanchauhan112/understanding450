@@ -2,6 +2,7 @@ import React from 'react'
 import Comment from '../../Comment/Comment';
 import './answer.css';
 const one = () => {
+
     return (
         <div className="div"  style={{justifyContent:'center',overflow:'auto'}}>
         <div className="ans_heading">
@@ -41,6 +42,9 @@ Another example to reverse a string:
            
        </p>
        <Comment/>
+
+      
+      
          </div>
  
        </div>

@@ -16,18 +16,19 @@ import './navbar.css';
 
     return (
 
-        <div className="container">
+        <div className="container" >
             
       <Sidebarr />
 
         <Nav className="navbar">
 
-<NavMenu>
-<h1 style={{color:"white"}}>Understanding 450</h1>
-
+<NavMenu >
+  
+<NavLink to="/"  >
+  <h1 >Understanding 450</h1>
+</NavLink>
 <NavLink to="/" >   Home</NavLink>
 <NavLink to="/about" >   About</NavLink>
-
 </NavMenu>
 
 

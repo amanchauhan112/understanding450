@@ -42,6 +42,9 @@ body {
     margin-top:"20px";
 }
 
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .banner {
   background: rgba(0, 0, 0, 0.6);

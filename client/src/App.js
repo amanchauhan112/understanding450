@@ -29,7 +29,7 @@ function App() {
     <Navbar/>
 
     <Switch>
-      <Route exact path="/" exact component={Home}></Route>
+      <Route exact path="/" component={Home}></Route>
       <Route exact path='/about' component={About} />
       <Route exact path='/array' component={Array} />
       <Route exact path='/matrix' component={Matrix} />

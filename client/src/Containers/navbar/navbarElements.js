@@ -4,11 +4,14 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   background: #000;
   height: 50px;
-  justify-content:centre;
+  display : flex;
+  // justify-content: flex-start;
   margin-left: 0px;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
-
+  // width: 50%;
+ 
+  
 `;
 
 export const NavLink = styled(Link)`
@@ -27,7 +30,7 @@ export const NavLink = styled(Link)`
 
 export const NavMenu = styled.div`
   display: flex;
- justify-content: end;
+//  justify-content: flex-start;
   @media screen and (max-width: 768px) {
     display: none;
   }
