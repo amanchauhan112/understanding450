@@ -1,6 +1,6 @@
 import React from 'react'
 import Comment from '../../Comment/Comment';
-import './answer.css';
+import '../../Answers/answer.css';
 const one = () => {
 
     return (

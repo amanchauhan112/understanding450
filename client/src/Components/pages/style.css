@@ -23,22 +23,18 @@
 }
 
 body {
-  /* margin: 10; */
-  /* padding: 0; */
+
   font-family: "Montserrat", sans-serif;
  
 }
 
 .content {
-  /* color:rgb(28, 245, 227); */
+
   font-size: 25px;
 }
 
 .home_content{
   text-align: center;
-    /* overflow:"auto"; */
-    /* display:"block",; */
-    /* margin-bottom:'5%'; */
     margin-top:"20px";
 }
 

@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import axios from 'axios';
+import './Comment.css';
 class Comment extends Component {
       
     state={
@@ -89,7 +90,7 @@ console.log('Data Recieved');
              <input
               type="text" 
               name="comment"
-              placeholder="Comment"
+              placeholder="Comment..."
               value={this.state.comment}
               onChange={this.handleChange}
               />

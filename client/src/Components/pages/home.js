@@ -144,33 +144,7 @@ const Home = () => {
     </Card>
 
 
-    <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="140"
-          image="data:image/png;base64,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"
-             title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            QUEUE
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Total Questions:36
-          </Typography>
-        </CardContent>
-
-      </CardActionArea>
-      <CardActions>
-
-        <Button size="small" color="primary" href="/array" >
-          Let's get started
-        </Button>
-       
-      </CardActions>
-    </Card>
+    
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
@@ -198,12 +172,7 @@ const Home = () => {
        
       </CardActions>
     </Card>
-
-    </div>
-    <br/>
-    
-    <div style={{display:'flex',justifyContent:"space-evenly"}}>
- <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
+    <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -232,6 +201,11 @@ const Home = () => {
     </Card>
 
 
+    </div>
+    <br/>
+    
+    <div style={{display:'flex',justifyContent:"space-evenly"}}>
+ 
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
