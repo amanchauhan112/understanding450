@@ -32,6 +32,8 @@ import BST from './Components/pages/bst';
 //<------------------------------------------------>
 
 import thirty_one from '../src/Components/Answers/Stack_Queue/31';
+import thirty_two from '../src/Components/Answers/Stack_Queue/32';
+import thirty_three from '../src/Components/Answers/Stack_Queue/33';
 
 
 function App() {
@@ -67,6 +69,8 @@ function App() {
       
       {/* Stack_Queue */}
       <Route  path='/31' component={thirty_one}/>
+      <Route  path='/32' component={thirty_two}/>
+      <Route  path='/33' component={thirty_three}/>
       
 
 

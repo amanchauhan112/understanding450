@@ -90,6 +90,8 @@ console.log('Data Recieved');
              <input
               type="text" 
               name="comment"
+              required="true"
+              id="comment"
               placeholder="Comment..."
               value={this.state.comment}
               onChange={this.handleChange}
