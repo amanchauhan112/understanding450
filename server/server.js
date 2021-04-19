@@ -1,24 +1,19 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+require('dotenv');
 // const path = require('path');
 const cors=require('cors');
 const app = express();
 const PORT = process.env.PORT || 8080; // Step 1
 
+require('./db/connection');
 const routes = require('./router/routes');
 
-const MONGODB_URI='mongodb+srv://aman123:aman123@mern-practice.zreod.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+
 
 // Step 2
-mongoose.connect(MONGODB_URI || 'mongodb://localhost/for_comment', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
 
-mongoose.connection.on('connected', () => {
-    console.log('Database is connected!!!!');
-});
 
 // // Data parsing
 app.use(express.json());
