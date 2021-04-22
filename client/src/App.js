@@ -34,6 +34,9 @@ import BST from './Components/pages/bst';
 import thirty_one from '../src/Components/Answers/Stack_Queue/31';
 import thirty_two from '../src/Components/Answers/Stack_Queue/32';
 import thirty_three from '../src/Components/Answers/Stack_Queue/33';
+import Register from './Components/userInput/register';
+import Login from './Components/userInput/login';
+import Logout from './Components/userInput/logout';
 
 
 function App() {
@@ -54,6 +57,9 @@ function App() {
       <Route exact path='/binarytree' component={BinaryTree} />
       <Route exact path='/bst' component={BST} />
       <Route exact path='/stack_queue' component={Stack_Queue} />
+      <Route exact path='/register' component={Register} />
+      <Route exact path='/login' component={Login} />
+      <Route exact path='/logout' component={Logout} />
       
       {/* //answers  */}
       

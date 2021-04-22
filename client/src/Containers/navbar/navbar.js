@@ -29,6 +29,9 @@ import './navbar.css';
 </NavLink>
 <NavLink to="/" >   Home</NavLink>
 <NavLink to="/about" >   About</NavLink>
+<NavLink to="/register" > Register</NavLink>
+<NavLink to="/login" >Login</NavLink>
+<NavLink to="/logout" > Logout</NavLink>
 </NavMenu>
 
 
