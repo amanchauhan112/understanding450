@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(cors());
 // // HTTP request logger
-app.use(morgan('tiny'));
+// app.use(morgan('tiny'));
 app.use('/api', routes);
 
 

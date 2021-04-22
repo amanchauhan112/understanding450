@@ -7,11 +7,16 @@ const Schema=mongoose.Schema;
 const Comment = new Schema ({
     comment : 
     {
-        String,
-        // require: true,
+        type:String,
+    
         pageId:'',
     }
-});
+   
+
+},
+
+    { timestamps: true }
+);
 
 const CommentModel = new mongoose.model('CommentModel',Comment);
 

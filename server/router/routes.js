@@ -15,7 +15,7 @@ router.get('/',(req,res)=>{
 });
 
 router.post('/save',(req,res)=>{
-    
+    console.log(req.body);
     const data = req.body;
 
     const newComment=new CommentModel(data);

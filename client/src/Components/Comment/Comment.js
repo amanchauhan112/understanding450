@@ -11,6 +11,10 @@ class Comment extends Component {
     componentDidMount=()=>{
         this.getComment();
     }
+    componentDidUpdate=()=>{
+this.getComment();
+    }
+    
 
     getComment=()=>{
         axios.get('http://localhost:8080/api')
@@ -18,8 +22,7 @@ class Comment extends Component {
         .then((response)=>{
           const data = response.data;
           this.setState({posts:data})
-console.log('Data Recieved');
-
+        // console.log('Data Recieved');
        
         })
        .catch(()=>{
@@ -48,6 +51,7 @@ console.log('Data Recieved');
         this.setState({
             [name]:value
         });
+
     }
     
     resetUserInput=()=>{
@@ -59,7 +63,9 @@ console.log('Data Recieved');
 
     submit=(event) =>{
 
-        // event.preventDefault();
+        event.preventDefault();
+
+        console.log(this.state);
 
         const payload={
             comment:this.state.comment,
@@ -78,6 +84,7 @@ console.log('Data Recieved');
         .catch(()=>{
             console.log('Error from axios method')
         })
+
     };
 
     render(){
@@ -87,6 +94,7 @@ console.log('Data Recieved');
     return (
         <div>
             <form onSubmit={this.submit}>
+
              <input
               type="text" 
               name="comment"
@@ -96,6 +104,7 @@ console.log('Data Recieved');
               value={this.state.comment}
               onChange={this.handleChange}
               />
+
               <button >Comment</button>
               </form>
               
