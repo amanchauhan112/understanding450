@@ -68,7 +68,8 @@ const Register=()=>{
     async function handleClick(){
         console.log(email);
 
-        try{  
+        try{ 
+            if(name!=="" && email!=="" && password!=="" &&password2!==""){ 
             const res = await fetch('/api/register',{
                  method:'POST',
                  body: JSON.stringify({
@@ -88,13 +89,16 @@ const Register=()=>{
                  history.push("/login")
                  }
                  else {
-                    //  alert("incorrect")
-                     console.log("incorrect")
+                        console.log("incorrect")
                  }
+                }
+                else{
+                    alert("Fill all details")
+                }
            }
            catch{
             //    alert("incorrect")
-            //    console.log("incorrect details")
+               console.log("incorrect")
           
            }    
     }
