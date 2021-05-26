@@ -1,16 +1,62 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-require('dotenv');
+// require('dotenv');
+
 // const path = require('path');
 const cors=require('cors');
 const app = express();
 const PORT = process.env.PORT || 8080; // Step 1
 
-require('./db/connection');
+
+const dotenv=require('dotenv')
+const passport=require('passport')
+const session=require('express-session')
+const MongoStore=require('connect-mongo');
+const connection=require('./config/conn')
+
+// require('./db/connection');
 const routes = require('./router/routes');
 
+//---------------------------
+//Load config
+dotenv.config({path:'./config/.env'})
 
+//Passport Config
+require('./config/passport')(passport)
+
+connection()
+
+app.use(morgan('tiny'))
+
+//Handlebars
+// app.engine('.hbs',exphbs({defaultLayout:'main',extname:'.hbs'}));
+// app.set('view engine','.hbs');
+
+//Sessions
+app.use(session({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: false,
+    // cookie: { secure: true },
+    store:new MongoStore({mongoUrl:process.env.MONGO_URI})
+  }))
+
+  // app.use(function (req, res, next) {
+  //   res.setHeader('Access-Control-Allow-Origin', '*');
+  //   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  //   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  //   res.setHeader('Access-Control-Allow-Credentials', true);
+  //   next();
+  //   });
+
+app.use(passport.initialize())
+app.use(passport.session())
+
+//Routes
+app.use('/',require('./router/routes'))
+app.use('/auth',require('./router/auth'))
+//----------------------------------
 
 // Step 2
 
@@ -21,7 +67,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.use(cors());
-// // HTTP request logger
+// HTTP request logger
 // app.use(morgan('tiny'));
 app.use('/api', routes);
 

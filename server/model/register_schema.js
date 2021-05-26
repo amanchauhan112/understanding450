@@ -12,21 +12,22 @@ const Register = new Schema ({
       },
       email: {
         type: String,
-        required: true,
+        // required: true,
       },
       password: {
         type: String,
-        required: true,
+        // required: true,
       },
       password2: {
         type: String,
-        required: true,
+        // required: true,
       },
       tokens:[{
         token:{
           type: String,
         }
-    
+ 
+        
       }],},
 
     { timestamps: true }
@@ -43,7 +44,7 @@ Register.methods.generateAuthToken =async function(){
       console.log("genAuthToken "+error);
   }
   }
-  
+   
 
 const RegisterModel = new mongoose.model('RegisterModel',Register);
 

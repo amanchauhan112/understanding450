@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const {ObjectId}=mongoose.Schema.Types
 
 //Schema
 
@@ -10,10 +11,22 @@ const Comment = new Schema ({
         type:String,
     
         pageId:'',
+    },
+    name:{
+        type:String,
+        default:'sdsdd',
+      
+    },
+    
+    postedBy:{
+        type:ObjectId,
+        ref:"RegisterModel"
     }
+
    
 
 },
+
 
     { timestamps: true }
 );
