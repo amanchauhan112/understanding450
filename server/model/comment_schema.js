@@ -6,10 +6,12 @@ const {ObjectId}=mongoose.Schema.Types
 const Schema=mongoose.Schema;
 
 const Comment = new Schema ({
+    userID:{
+        type: String,
+     },
     comment : 
     {
         type:String,
-    
         pageId:'',
     },
     name:{

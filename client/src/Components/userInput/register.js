@@ -94,7 +94,11 @@ const Register=()=>{
                     //  alert("incorrect")
                      console.log("incorrect")
                  }
-           }
+                }
+                // else{
+                //     alert("Fill all details")
+                // }
+        //    }
            catch(error){
             //    alert("incorrect")
             //    console.log("incorrect details")
