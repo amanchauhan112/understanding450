@@ -1,7 +1,11 @@
 import './App.css';
-import React from 'react';
 import Navbar from './Containers/navbar/navbar';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import './App.css';
+import React,{useEffect,createContext,useReducer,useContext} from 'react';
+// import Chat from './Chat';
+import {BrowserRouter as Router, Route, Switch,useHistory} from 'react-router-dom';
+import {reducer,initialState} from './reducers/userReducer';
+// import Profile from './components/pages/Profile';
 
 //pages
 import Home from './Components/pages/home'
@@ -39,15 +43,32 @@ import Login from './Components/userInput/login';
 import Logout from './Components/userInput/logout';
 
 
-function App() {
-  return (
+export const UserContext =createContext()
 
-    <Router >
-    
-    <Navbar/>
 
-    <Switch>
-      <Route exact path="/" component={Home}></Route>
+const Routing=()=>{
+  const history=useHistory()
+  const {dispatch} = useContext(UserContext)
+
+useEffect(()=>{
+
+  const user = JSON.parse(localStorage.getItem("user"))
+
+  if(user){
+    dispatch({type:"USER",payload:user})
+    // history.push('/')
+
+  }else{
+         history.push('/login')
+  }
+
+
+},[]);
+
+  return(
+  
+  <Switch>
+ <Route exact path="/" component={Home}></Route>
       <Route exact path='/about' component={About} />
       <Route exact path='/array' component={Array} />
       <Route exact path='/matrix' component={Matrix} />
@@ -85,11 +106,27 @@ function App() {
 
       <Route component={Error} />
       
-    </Switch>
-    {/* <Footer/> */}
+
+ {/* <Route component={Error} /> */}
+ 
+</Switch>
+  )
+}
+
+function App() {
+
+  const [state,dispatch] = useReducer(reducer,initialState)
+  return (
+<UserContext.Provider value={{state,dispatch}}>
+    <Router >
+    <Navbar/>
+<Routing/>
+    
     </Router>
-  
+
+  </UserContext.Provider>
   );
 }
+
 
 export default App;
