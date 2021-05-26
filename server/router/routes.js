@@ -79,7 +79,7 @@ router.get('/register/',(req,res)=>{
 
 });
 
-router.patch('/save/:id',async(req,res)=>{
+router.patch('/save/:id',async( req,res)=>{
   const id= req.params.id;
   try{
       const editNote = await CommentModel.findByIdAndUpdate(id)
@@ -98,58 +98,59 @@ router.patch('/save/:id',async(req,res)=>{
   }
 })
 
-router.delete('/save/:id',async (req,res)=>{
-  const id = req.params.id;
-  CommentModel.findByIdAndDelete(id)
-  .then(()=>{
+// router.delete('/save/:id',async (req,res)=>{
+//   const id = req.params.id;
+//   CommentModel.findByIdAndDelete(id)
+//   .then(()=>{
     
-  })
-  .catch(()=>{
-      console.log("error while deleting");
-  })
-})
+//   })
+//   .catch(()=>{
+//       console.log("error while deleting");
+//   })
+// })
 
-// router.post('/registe/:id',async (req,res)=>{
+// router.post('/registe/d',async (req,res)=>{
     
-        if(!email||!password||!password2)
-        {
-         return res.status(400).send({error:"Please fill all fields"});
+//         if(!email||!password||!password2)
+//         {
+//          return res.status(400).send({error:"Please fill all fields"});
 
-        }
-        else if (password === password2) {
+//         }
+//         else if (password === password2) {
 
-          for(var i=0;i<email.length;i++)
-          {
-            if(email[i]===" ")
-            {
-              console.log("Any Charachter of email cannot be space")
-              return res.status(400).json({error:"Any Charachter of email cannot be space"});
+
+//           for(var i=0;i<email.length;i++)
+//           {
+//             if(email[i]===" ")
+//             {
+//               console.log("Any Charachter of email cannot be space")
+//               return res.status(400).json({error:"Any Charachter of email cannot be space"});
   
-            }
-          }
+//             }
+//           }
 
-          const user = new RegisterModel(req.body);
-          const userExist = await RegisterModel.findOne({ email: email });
-          if (userExist) {
-            console.log("Anycannot be space")
+//           const user = new RegisterModel(req.body);
+//           const userExist = await RegisterModel.findOne({ email: email });
+//           if (userExist) {
+//             console.log("Anycannot be space")
 
-            res.status(400).send("user already exist");
-          } else {
-            user
-              .save()
-              .then((result) => {
-                res.status(200).send("registered");
-              })
-              .catch((err) => {
-                res.status(400).send("/register error");
-                console.log("registration error");
-              });
-          }
-        } else {
-          console.log("AnyCpace")
+//             res.status(400).send("user already exist");
+//           } else {
+//             user
+//               .save()
+//               .then((result) => {
+//                 res.status(200).send("registered");
+//               })
+//               .catch((err) => {
+//                 res.status(400).send("/register error");
+//                 console.log("registration error");
+//               });
+//           }
+//         } else {
+//           console.log("AnyCpace")
 
-          res.status(400).send("password does not match");
-        }
+//           res.status(400).send("password does not match");
+//         }
     
 //         if (password === password2) {
 //           const user = new RegisterModel(req.body);

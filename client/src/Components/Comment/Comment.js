@@ -135,7 +135,7 @@ this.getComment();
 
     render(){
 
-const Comment= ()=> {
+// const Comment= ()=> {
   
 
     return (
@@ -168,6 +168,6 @@ const Comment= ()=> {
 
 
 }
-}
+// }
 
 export default Comment;
