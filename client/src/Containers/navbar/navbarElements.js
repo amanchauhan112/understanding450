@@ -26,7 +26,17 @@ export const NavLink = styled(Link)`
   :hover{color:#15cdfc;}
 `;
 
-
+export const NavHead = styled(Link)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+ 
+  :hover{color:#15cdfc;}
+`;
 
 export const NavMenu = styled.div`
   display: flex;
@@ -35,3 +45,10 @@ export const NavMenu = styled.div`
     display: none;
   }
 `;
+// export const NavHead = styled.div`
+//   display: flex;
+// //  justify-content: flex-start;
+//   @media screen and (max-width: 768px) {
+//     display: block;
+//   }
+// `;
