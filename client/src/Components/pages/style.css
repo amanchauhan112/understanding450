@@ -25,6 +25,8 @@
 body {
 
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(212, 12, 12);
+
  
 }
 
@@ -35,7 +37,8 @@ body {
 
 .home_content{
   text-align: center;
-    margin-top:"20px";
+    /* margin-top:"20px"; */
+    background-color: black;
 }
 
 h1{

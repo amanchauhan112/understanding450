@@ -15,7 +15,9 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 250,
     minWidth:250,
+   
   },
+  
 });
 
 
@@ -26,8 +28,8 @@ const Home = () => {
   return (
     <div className="home_content" >
 <div style={{display:'flex',justifyContent:"space-evenly",marginTop:'40px'}}>
- <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+ <Card className={classes.root}  style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
+      <CardActionArea >
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -56,7 +58,7 @@ const Home = () => {
 
 
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea >
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
