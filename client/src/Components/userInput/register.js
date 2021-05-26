@@ -6,7 +6,7 @@ import { Button } from '@material-ui/core';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import {useState} from 'react';
 import {useHistory} from 'react-router-dom';
-
+// import M from 'materialize-css'
 
 const useStyles = makeStyles(()=>({
     container:{
@@ -66,10 +66,10 @@ const Register=()=>{
     const [password2, setPassword2] = useState("");
 
     async function handleClick(){
-        console.log(email);
+        // console.log(email);
 
         try{  
-            const res = await fetch('/api/register',{
+            const res = await fetch('/api/register/',{
                  method:'POST',
                  body: JSON.stringify({
                      name: name,
@@ -82,20 +82,24 @@ const Register=()=>{
                  }
              });
              
-                 const jsondata= await res.json();
+                //  const jsondata= await res.json();
                  if( res.status!=='400'){
-                 console.log(jsondata)
+                    // console.log("incllorrect")
+           
+            //    M.toast({html:data.message,classes:"#43a047 green darken-1"})
                  history.push("/login")
                  }
                  else {
+                    // M.toast({html: data.error,classes:"#c62828 red darken-3"})
                     //  alert("incorrect")
                      console.log("incorrect")
                  }
            }
-           catch{
+           catch(error){
             //    alert("incorrect")
             //    console.log("incorrect details")
-          
+               console.log(error)
+               console.log("jj")
            }    
     }
 
@@ -110,12 +114,12 @@ const Register=()=>{
           <div className={classes.textfields}>
             <AccountCircleIcon className={classes.loginIcon} fontSize='large'/>
             <TextField 
-                type="te"
+                type="text"
                 className={classes.textfield} 
                 name="name"
                 id="standard-required" 
                 label="Name" 
-                required="true"
+                required={true}
                 onChange={(e)=>setName(e.target.value)}
                 />
 
@@ -134,7 +138,7 @@ const Register=()=>{
                 name="password" 
                 id="standard-required"  
                 label="Password" 
-                required="true"
+                required={true}
                 onChange={(e)=>setPassword(e.target.value)}
                 />
 
