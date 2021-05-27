@@ -15,6 +15,7 @@ import Array from '../src/Components/pages/array';
 import String from '../src/Components/pages/string';
 import Stack_Queue from '../src/Components/pages/stack';
 import Matrix from '../src/Components/pages/matrix';
+import Graph from '../src/Components/pages/graph';
 import Error from '../src/Components/pages/error';
 
 
@@ -38,6 +39,18 @@ import BST from './Components/pages/bst';
 import thirty_one from '../src/Components/Answers/Stack_Queue/31';
 import thirty_two from '../src/Components/Answers/Stack_Queue/32';
 import thirty_three from '../src/Components/Answers/Stack_Queue/33';
+
+//Graph
+//<------------------------------------------------>
+
+import g_1 from '../src/Components/Answers/Graph/1';
+import g_2 from '../src/Components/Answers/Graph/2';
+import g_3 from '../src/Components/Answers/Graph/3';
+import g_4 from '../src/Components/Answers/Graph/4';
+import g_5 from '../src/Components/Answers/Graph/5';
+
+
+
 import Register from './Components/userInput/register';
 import Login from './Components/userInput/login';
 import Logout from './Components/userInput/logout';
@@ -78,6 +91,7 @@ useEffect(()=>{
       <Route exact path='/binarytree' component={BinaryTree} />
       <Route exact path='/bst' component={BST} />
       <Route exact path='/stack_queue' component={Stack_Queue} />
+      <Route exact path='/graph' component={Graph} />
       <Route exact path='/register' component={Register} />
       <Route exact path='/login' component={Login} />
       <Route exact path='/logout' component={Logout} />
@@ -100,7 +114,13 @@ useEffect(()=>{
       <Route  path='/33' component={thirty_three}/>
       
 
-
+     {/* Graph */}
+     <Route  path='/g_1' component={g_1}/>
+      <Route  path='/g_2' component={g_2}/>
+      <Route  path='/g_3' component={g_3}/>
+      <Route  path='/g_4' component={g_4}/>
+      <Route  path='/g_5' component={g_5}/>
+      
 
 
 
