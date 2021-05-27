@@ -10,6 +10,34 @@
   padding: 4%;
   /* color: aliceblue; */
 }
+.home_div{
+  width: 30%;
+  display:inline-flex;
+  margin: 12px;
+  
+  justify-content: center;
+}
+
+@media screen and (max-width:950px) {
+  .home_div{
+    width: 40%;
+  display:inline-flex;
+  /* display:flex; */
+    margin: 20px;
+    
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .home_div{
+    width: 80%;
+  display:inline-flex;
+    margin: 20px;
+    
+    justify-content: center;
+  }
+}
 
 .heading {
   text-align: center;
@@ -45,6 +73,15 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.question{
+  color:black;
+}
+
+.answer_link{
+  color:rgb(107, 107, 255);
+  text-decoration:none;
+}
+
 .banner {
   background: rgba(0, 0, 0, 0.6);
   padding: 30px 20px;;
@@ -72,3 +109,4 @@ h1{
   color: aliceblue;
   padding: 0 15%;
 }
+
