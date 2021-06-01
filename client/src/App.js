@@ -51,9 +51,9 @@ import g_5 from '../src/Components/Answers/Graph/5';
 
 
 
-// import Register from './Components/userInput/register';
-// import Login from './Components/userInput/login';
-// import Logout from './Components/userInput/logout';
+import Register from './Components/userInput/register';
+import Login from './Components/userInput/login';
+import Logout from './Components/userInput/logout';
 
 
 export const UserContext =createContext()
@@ -63,20 +63,20 @@ const Routing=()=>{
   const history=useHistory()
   const {dispatch} = useContext(UserContext)
 
-// useEffect(()=>{
+useEffect(()=>{
 
-//   const user = JSON.parse(localStorage.getItem("user"))
+  const user = JSON.parse(localStorage.getItem("user"))
 
-//   if(user){
-//     dispatch({type:"USER",payload:user})
-//     // history.push('/')
+  if(user){
+    dispatch({type:"USER",payload:user})
+    // history.push('/')
 
-//   }else{
-//          history.push('/')
-//   }
+  }else{
+         history.push('/')
+  }
 
 
-// },[]);
+},[]);
 
   return(
   
@@ -92,9 +92,9 @@ const Routing=()=>{
       <Route exact path='/bst' component={BST} />
       <Route exact path='/stack_queue' component={Stack_Queue} />
       <Route exact path='/graph' component={Graph} />
-      {/* <Route exact path='/register' component={Register} />
+      <Route exact path='/register' component={Register} />
       <Route exact path='/login' component={Login} />
-      <Route exact path='/logout' component={Logout} /> */}
+      <Route exact path='/logout' component={Logout} />
       
       {/* //answers  */}
       
@@ -127,7 +127,6 @@ const Routing=()=>{
       <Route component={Error} />
       
 
- {/* <Route component={Error} /> */}
  
 </Switch>
   )

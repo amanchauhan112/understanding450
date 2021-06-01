@@ -77,7 +77,7 @@ export default function Login(){
     //    const res = await 
     console.log("good1")
 
-       fetch('https://understanding450.herokuapp.com/login',{
+       fetch('https://understanding450.herokuapp.com/api/login',{
             method:'POST',
             body: JSON.stringify({
                 email: email,
@@ -104,7 +104,7 @@ export default function Login(){
                 console.log("good")
 
                 //  M.toast({html:"Signedin success",classes:"#43a047 green darken-1"})
-                history.push('/')
+                // history.push('/')
             }
          }).catch(err=>{
             console.log("good4")
