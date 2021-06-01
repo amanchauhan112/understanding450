@@ -72,7 +72,7 @@ export default function Login(){
 
 
     async function handleClick(){
-        // console.log(email)
+        console.log(email)
       try{  
     //    const res = await 
        fetch('https://understanding450.herokuapp.com/login',{
