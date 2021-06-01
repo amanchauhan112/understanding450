@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 const connection=async() =>{
 try{
-    const conn=await mongoose.connect(process.env.MONGODB_URI,{
+    const conn=await mongoose.connect('mongodb+srv://aman123:ThxfBCxQYlBwltxd@understanding450.hts1v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'||process.env.MONGODB_URI,{
         useNewUrlParser:true,
         useUnifiedTopology:true,
         useFindAndModify:false
