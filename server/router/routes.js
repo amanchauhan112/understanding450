@@ -199,7 +199,7 @@ router.post('/register',async (req,res)=>{
   
 });
 
-router.post('/api/login',async(req,res)=>{
+router.post('/login',async(req,res)=>{
     const userEmail = req.body.email;
     const userPass = req.body.password;
     try{
