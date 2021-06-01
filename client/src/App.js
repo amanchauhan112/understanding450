@@ -60,8 +60,8 @@ export const UserContext =createContext()
 
 
 const Routing=()=>{
-  // const history=useHistory()
-  // const {dispatch} = useContext(UserContext)
+  const history=useHistory()
+  const {dispatch} = useContext(UserContext)
 
 // useEffect(()=>{
 
@@ -100,7 +100,10 @@ const Routing=()=>{
       
       {/* Array */}
       <Route  path='/one' component={One}/>
+      
+      
     
+
 
 
 
@@ -132,17 +135,16 @@ const Routing=()=>{
 
 function App() {
 
-  // const [state,dispatch] = useReducer(reducer,initialState)
+  const [state,dispatch] = useReducer(reducer,initialState)
   return (
-    <>
-{/* <UserContext.Provider value={{state,dispatch}}> */}
+<UserContext.Provider value={{state,dispatch}}>
     <Router >
     <Navbar/>
 <Routing/>
     
     </Router>
-</>
-  // </UserContext.Provider>
+
+  </UserContext.Provider>
   );
 }
 
