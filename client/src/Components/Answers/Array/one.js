@@ -1,5 +1,4 @@
 import React from 'react'
-// import Comment from '../../Comment/Comment';
 import '../../Answers/answer.css';
 const one = () => {
 
@@ -41,7 +40,6 @@ Another example to reverse a string:
 
            
        </p>
-       {/* <Comment/> */}
 
       
       

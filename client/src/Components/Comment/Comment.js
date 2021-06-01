@@ -3,41 +3,41 @@ import axios from 'axios';
 import './Comment.css';
 class Comment extends Component {
       
-    state={
-        comment:'',
-        posts:[],
-        // name:'',
-    };
+//     state={
+//         comment:'',
+//         posts:[],
+//         // name:'',
+//     };
 
-    componentDidMount=()=>{
-        this.getComment();
-    }
-    componentDidUpdate=()=>{
-this.getComment();
-    }
+//     componentDidMount=()=>{
+//         this.getComment();
+//     }
+//     componentDidUpdate=()=>{
+// this.getComment();
+//     }
     
 
 
-    getComment=()=>{
+//     getComment=()=>{
 
   
 
-        axios.get('http://localhost:8080/api',{
-            headers:{
-                "Content-Type":"application/json",
-                "Authorization":"Bearer "+localStorage.getItem("jwt")
-            },
-        })
-        .then((response)=>{
-          const data = response.data;
+//         axios.get('http://localhost:8080/api',{
+//             headers:{
+//                 "Content-Type":"application/json",
+//                 "Authorization":"Bearer "+localStorage.getItem("jwt")
+//             },
+//         })
+//         .then((response)=>{
+//           const data = response.data;
           
-           this.setState({posts:data})
+//            this.setState({posts:data})
        
-        })
-       .catch(()=>{
-           alert('Error retireiving data!!');
-       });
-    }
+//         })
+//        .catch(()=>{
+//            alert('Error retireiving data!!');
+//        });
+//     }
 
     // getComment=()=>{
     //     axios.get('http://localhost:8080/api/')
@@ -53,49 +53,49 @@ this.getComment();
     // }
 
     
-    displayComment = (posts) =>{
+    // displayComment = (posts) =>{
 
-        if(!posts.length) return null;
+    //     if(!posts.length) return null;
 
-        return posts.map((post,index)=>(
+    //     return posts.map((post,index)=>(
 
-            <div key={index}>
-            <h4 className='comment' >{post.postedBy.name}:{post.comment}</h4>
-             </div>
-        ));
-    };
+    //         <div key={index}>
+    //         <h4 className='comment' >{post.postedBy.name}:{post.comment}</h4>
+    //          </div>
+    //     ));
+    // };
 
-    handleChange=(event)=>{
-        const target=event.target;
-        const name=target.name;
-        const value=target.value;
+    // handleChange=(event)=>{
+    //     const target=event.target;
+    //     const name=target.name;
+    //     const value=target.value;
 
-        this.setState({
-            [name]:value,
-            postedBy:localStorage.user
-        });
+    //     this.setState({
+    //         [name]:value,
+    //         postedBy:localStorage.user
+    //     });
 
-    }
+    // }
     
-    resetUserInput=()=>{
+    // resetUserInput=()=>{
 
-        this.setState({
-            comment:'',
-        });
-    };
+    //     this.setState({
+    //         comment:'',
+    //     });
+    // };
 
-    submit=(event) =>{
+    // submit=(event) =>{
 
-        event.preventDefault();
+    //     event.preventDefault();
 
-        // console.log(this.state);
+    //     // console.log(this.state);
 
-        const payload={
-            comment:this.state.comment,
-            postedBy:localStorage.user,
-        };
+    //     const payload={
+    //         comment:this.state.comment,
+    //         postedBy:localStorage.user,
+    //     };
 
-        console.log(payload.comment);
+    //     console.log(payload.comment);
 
         // axios({
         //     url:'http://localhost:8080/gooo',
@@ -114,24 +114,24 @@ this.getComment();
         //         console.log("incorrect")
         //     });
 
-        axios({
-            url:'http://localhost:8080/api/save',
-            method:'POST',
-            data: payload,
-            headers:{
-              "Content-Type":"application/json",
-              "Authorization":"Bearer "+localStorage.getItem("jwt")
-          },
-        })
-        .then(()=>{
-            console.log('Data Recieved');
-            this.resetUserInput();
-        })
-        .catch(()=>{
-            console.log('Error from axios method')
-        })
+    //     axios({
+    //         url:'http://localhost:8080/api/save',
+    //         method:'POST',
+    //         data: payload,
+    //         headers:{
+    //           "Content-Type":"application/json",
+    //           "Authorization":"Bearer "+localStorage.getItem("jwt")
+    //       },
+    //     })
+    //     .then(()=>{
+    //         console.log('Data Recieved');
+    //         this.resetUserInput();
+    //     })
+    //     .catch(()=>{
+    //         console.log('Error from axios method')
+    //     })
 
-    };
+    // };
 
     render(){
 
