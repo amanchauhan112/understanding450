@@ -199,7 +199,7 @@ router.post('/register',async (req,res)=>{
   
 });
 
-router.post('/login',async(req,res)=>{
+router.post('/api/login',async(req,res)=>{
     const userEmail = req.body.email;
     const userPass = req.body.password;
     try{
@@ -240,7 +240,7 @@ router.post('/login',async(req,res)=>{
     // res.status(200).send('logout');
 
         req.logout()
-    res.redirect('http://localhost:3000/login')
+    // res.redirect('https://understanding450.herokuapp.com/login')
   });
   
 
