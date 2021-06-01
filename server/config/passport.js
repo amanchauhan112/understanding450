@@ -6,8 +6,8 @@ const User=require('../model/User')
 module.exports=function(passport){
     passport.use(
         new GoogleStrategy({
-        clientID:"149904352221-4kblb0v5ejoeol7c3j4o3r91slr2d55d.apps.googleusercontent.com",
-        clientSecret:"Z_Lnekh0oA6yvDaoxIuoxmX9",
+        clientID:"923620670308-24nbhhhvidn9kk5kg74cvkngvfjjqhl1.apps.googleusercontent.com",
+        clientSecret:"qJtDFE2hHJYLzjMn0H3Skju9",
         callbackURL:'https://understanding450.herokuapp.com/auth/google/callback'
     },
     
