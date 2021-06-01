@@ -217,7 +217,7 @@ router.post('/login',async(req,res)=>{
             // res.status(200).send("logged in");
 
             try{
-              const token = jwt.sign({_id:userExist._id.toString()},process.env.SECRET_KEY)
+              const token = jwt.sign({_id:userExist._id.toString()},"genAuthToken "||process.env.SECRET_KEY)
               const {_id,name}=userExist
               res.json({token,user:{_id,name}})
  

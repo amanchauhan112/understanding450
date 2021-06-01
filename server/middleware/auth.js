@@ -14,7 +14,7 @@ if(!authorization){
 }
 
 const token=authorization.replace("Bearer ","")
-jwt.verify(token,process.env.SECRET_KEY,(err,payload)=>{
+jwt.verify(token,"Bearer "||process.env.SECRET_KEY,(err,payload)=>{
 
     if(err){
         return res.status(401).json({error:"You must login first"})

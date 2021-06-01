@@ -43,7 +43,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     // cookie: { secure: true },
-    store:new MongoStore({mongoUrl:process.env.MONGO_URI})
+    store:new MongoStore({mongoUrl:'mongodb+srv://aman123:ThxfBCxQYlBwltxd@understanding450.hts1v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'||process.env.MONGO_URI})
   }))
 
   // app.use(function (req, res, next) {

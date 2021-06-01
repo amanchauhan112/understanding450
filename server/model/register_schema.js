@@ -34,16 +34,16 @@ const Register = new Schema ({
 );
 
 
-Register.methods.generateAuthToken =async function(){
-    try{
-      const token = jwt.sign({_id:this._id.toString()},process.env.SECRET_KEY)
-      this.tokens= this.tokens.concat({token:token})
-      await this.save();
-      return token;
-  }catch(error){
-      console.log("genAuthToken "+error);
-  }
-  }
+// Register.methods.generateAuthToken =async function(){
+//     try{
+//       const token = jwt.sign({_id:this._id.toString()},process.env.SECRET_KEY)
+//       this.tokens= this.tokens.concat({token:token})
+//       await this.save();
+//       return token;
+//   }catch(error){
+//       console.log("genAuthToken "+error);
+//   }
+//   }
    
 
 const RegisterModel = new mongoose.model('RegisterModel',Register);
