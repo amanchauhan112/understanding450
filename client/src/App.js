@@ -60,23 +60,23 @@ export const UserContext =createContext()
 
 
 const Routing=()=>{
-  const history=useHistory()
-  const {dispatch} = useContext(UserContext)
+  // const history=useHistory()
+  // const {dispatch} = useContext(UserContext)
 
-useEffect(()=>{
+// useEffect(()=>{
 
-  const user = JSON.parse(localStorage.getItem("user"))
+//   const user = JSON.parse(localStorage.getItem("user"))
 
-  if(user){
-    dispatch({type:"USER",payload:user})
-    // history.push('/')
+//   if(user){
+//     dispatch({type:"USER",payload:user})
+//     // history.push('/')
 
-  }else{
-         history.push('/')
-  }
+//   }else{
+//          history.push('/')
+//   }
 
 
-},[]);
+// },[]);
 
   return(
   
@@ -100,10 +100,7 @@ useEffect(()=>{
       
       {/* Array */}
       <Route  path='/one' component={One}/>
-      
-      
     
-
 
 
 
