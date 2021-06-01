@@ -11,7 +11,7 @@ const RequireLogin=require('../middleware/auth')
 const {ensureAuth,ensureGuest}=require('../middleware/reqLogin')
 
 
-router.get('/',(req,res)=>{
+router.get('/comment',(req,res)=>{
 
     CommentModel.find({ }).sort({createdAt: -1})
     .populate("postedBy","_id name")

@@ -11,6 +11,7 @@ console.log(`Connected to DB`)
 }
 
 catch(err){
+    
 
 console.log(`No DB Connected`)
 

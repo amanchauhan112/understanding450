@@ -1,13 +1,17 @@
 const express = require('express');
+const app = express();
 const mongoose = require('mongoose');
 const morgan = require('morgan');
-// require('dotenv');
 
+// require('dotenv');
 // const path = require('path');
+
 const cors=require('cors');
-const app = express();
 const PORT = process.env.PORT || 8080; // Step 1
 
+app.get('/',(req,res)=>{
+      res.send('hello world' );
+});
 
 const dotenv=require('dotenv')
 const passport=require('passport')
