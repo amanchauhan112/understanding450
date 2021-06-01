@@ -8,7 +8,7 @@ module.exports=function(passport){
         new GoogleStrategy({
         clientID:"149904352221-4kblb0v5ejoeol7c3j4o3r91slr2d55d.apps.googleusercontent.com",
         clientSecret:"Z_Lnekh0oA6yvDaoxIuoxmX9",
-        callbackURL:'/auth/google/callback'
+        callbackURL:'https://understanding450.herokuapp.com/auth/google/callback'
     },
     
     async(accessToken,refreshToken,profile,done)=>{

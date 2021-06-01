@@ -1,0 +1,8 @@
+MONGO_URI='mongodb+srv://aman123:ThxfBCxQYlBwltxd@understanding450.hts1v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+MONGODB_URI='mongodb+srv://aman123:ThxfBCxQYlBwltxd@understanding450.hts1v.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+# MONGODB_URI='mongodb+srv://aman123:aman123@mern-practice.zreod.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+# MONGO_URI='mongodb+srv://aman123:aman123@mern-practice.zreod.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+SECRET_KEY= thisisunderstanding450tohelpstudentswhowantstocompletetDSA450
+GOOGLE_CLIENT_ID="149904352221-4kblb0v5ejoeol7c3j4o3r91slr2d55d.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="Z_Lnekh0oA6yvDaoxIuoxmX9"
+PORT=8080

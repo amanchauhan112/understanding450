@@ -75,7 +75,7 @@ export default function Login(){
         // console.log(email)
       try{  
     //    const res = await 
-       fetch('http://localhost:8080/api/login',{
+       fetch('https://understanding450.herokuapp.com/login',{
             method:'POST',
             body: JSON.stringify({
                 email: email,
@@ -168,7 +168,7 @@ export default function Login(){
             {/* <h4>{name} </h4> */}
             <Button 
                 className={classes.loginButton}
-                href="http://localhost:8080/auth/google">
+                href="https://understanding450.herokuapp.com/auth/google">
                    Login With Google
             </Button>
           </div>    

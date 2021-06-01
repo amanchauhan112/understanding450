@@ -7,7 +7,7 @@ const morgan = require('morgan');
 // const path = require('path');
 
 const cors=require('cors');
-const PORT = process.env.PORT || 8080; // Step 1
+const PORT = "https://understanding450.herokuapp.com/" || process.env.PORT || 8080; // Step 1
 
 app.get('/',(req,res)=>{
       res.send('hello world' );
