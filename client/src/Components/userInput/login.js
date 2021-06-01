@@ -75,6 +75,8 @@ export default function Login(){
         console.log(email)
       try{  
     //    const res = await 
+    console.log("good1")
+
        fetch('https://understanding450.herokuapp.com/login',{
             method:'POST',
             body: JSON.stringify({
@@ -83,8 +85,10 @@ export default function Login(){
             }),
             headers: {
                 "content-type": "application/json; charset=UTF-8"
-            }
+            },
+            
         })
+        console.log("good2")
         .then(res=>res.json())
         .then(data=>{
             if(data.error){
@@ -92,6 +96,7 @@ export default function Login(){
             //    M.toast({html: data.error,classes:"#c62828 red darken-3"})
             }
             else{
+                console.log("good3")
  
                  localStorage.setItem("jwt",data.token)
                  localStorage.setItem("user",JSON.stringify(data.user))//Since user is an object we need to stringify it
@@ -102,6 +107,8 @@ export default function Login(){
                 history.push('/')
             }
          }).catch(err=>{
+            console.log("good4")
+
              console.log(err)
          })
 
