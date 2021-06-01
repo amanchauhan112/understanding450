@@ -24,7 +24,7 @@ router.get('/comment',(req,res)=>{
 
 });
 
-router.post('/save',RequireLogin,(req,res)=>{
+router.post('/save',(req,res)=>{
 
   console.log(req.body.user);
   const comment=req.body
@@ -56,7 +56,7 @@ router.post('/save',RequireLogin,(req,res)=>{
 
 });
 
-router.get('/myposts/',RequireLogin,(req,res)=>{
+router.get('/myposts/',(req,res)=>{
   CommentModel.find({postedBy:req.user})
   .populate("postedBy","_id name")
   .then(myposts=>{
@@ -244,7 +244,7 @@ router.post('/login',async(req,res)=>{
   });
   
 
-router.get('/logintemp',ensureGuest,(req,res)=>{
+router.get('/logintemp',(req,res)=>{
     // res.send('Login')
     // console.log("err in")
     res.status(400).send("error in");
