@@ -135,16 +135,17 @@ useEffect(()=>{
 
 function App() {
 
-  const [state,dispatch] = useReducer(reducer,initialState)
+  // const [state,dispatch] = useReducer(reducer,initialState)
   return (
-<UserContext.Provider value={{state,dispatch}}>
+    <>
+{/* <UserContext.Provider value={{state,dispatch}}> */}
     <Router >
     <Navbar/>
 <Routing/>
     
     </Router>
-
-  </UserContext.Provider>
+</>
+  // </UserContext.Provider>
   );
 }
 
