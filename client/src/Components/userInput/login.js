@@ -89,8 +89,6 @@ export default function Login(){
             
         })
         console.log("good2")
-        .then(res=>console.log(res))
-        console.log("goodk2")
         .then(res=>res.json())
         console.log("goodk3")
         .then(data=>{
@@ -139,8 +137,10 @@ export default function Login(){
             //     console.log("incorrect")
             // }
       }
-      catch{
+      catch(err)
+      {
           console.log("incorrect details")
+          console.log(err)
       }    
     }
 
