@@ -75,7 +75,7 @@ export default function Login(){
         console.log(email)
       try{  
     //    const res = await 
-       fetch('https://understanding450.herokuapp.com/api/login',{
+       fetch('https://understanding450.herokuapp.com/login',{
             method:'POST',
             body: JSON.stringify({
                 email: email,
