@@ -1,5 +1,5 @@
 import React from 'react'
-import Comment from '../../Comment/Comment';
+// import Comment from '../../Comment/Comment';
 import '../../Answers/answer.css';
 const one = () => {
 
@@ -145,7 +145,7 @@ int orangesRotting(vector{"<vector<int>>"}& grid)<br></br>
     return ans-1;
 {"}"}
        </p>
-       <Comment/>
+       {/* <Comment/> */}
 
       
       

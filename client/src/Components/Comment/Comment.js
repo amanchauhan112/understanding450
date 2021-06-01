@@ -140,9 +140,9 @@ this.getComment();
 
     return (
         <div>
-            <form onSubmit={this.submit}>
+            {/* <form onSubmit={this.submit}> */}
 {/* <h1>{this.name} </h1> */}
-             <input
+             {/* <input
               type="text" 
               name="comment"
             //   required="true"
@@ -160,7 +160,7 @@ this.getComment();
 <hr/>
 <div>
     {this.displayComment(this.state.posts)}
-</div>
+</div> */}
         </div>
     )
 }

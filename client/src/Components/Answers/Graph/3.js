@@ -15,6 +15,7 @@ render(){
         <div className="div"  style={{justifyContent:'center',overflow:'auto'}}>
 
          
+         
         <div className="ans_heading">
          <h1 >First negative in window of k</h1><br/>
          </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css'
+import { Link } from 'react-router-dom';
 
 //Material UI
 import { makeStyles } from '@material-ui/core/styles';
@@ -36,9 +37,11 @@ const Home = () => {
   return (
     <div className="home_content" >
 <div className="home_div">
+<Link to={'/array'} style={{textDecoration:"none"}}>
  <Card className={classes.root}  style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea >
         <CardMedia
+          
           component="img"
           alt="Contemplative Reptile"
           height="140"
@@ -63,9 +66,11 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
 
     <div className="home_div">
+    <Link to={'/string'} style={{textDecoration:"none"}}>
 
 
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
@@ -95,12 +100,14 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
 
 <div className="home_div">
+<Link to={'/matrix'} style={{textDecoration:"none"}}>
 
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea >
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -126,13 +133,15 @@ const Home = () => {
        
       </CardActions>
     </Card>
-
+</Link>
     </div>
 
    
     <div className="home_div">
+<Link to={'/stack_queue'} style={{textDecoration:"none"}}>
+
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea >
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -158,9 +167,12 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
 
     <div className="home_div">
+<Link to={'/linkedlist'} style={{textDecoration:"none"}}>
+
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
@@ -188,8 +200,11 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
 </div>
     <div className="home_div">
+<Link to={'/search_sort'} style={{textDecoration:"none"}}>
+
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
       <CardActionArea>
         <CardMedia
@@ -218,13 +233,15 @@ const Home = () => {
       </CardActions>
     </Card>
 
-
+</Link>
     </div>
  
     
     <div className="home_div">
+<Link to={'/binarytree'} style={{textDecoration:"none"}}>
+
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea href="/binarytree">
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -250,10 +267,13 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
     <div className="home_div">
+<Link to={'/bst'} style={{textDecoration:"none"}}>
+
  <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea href="/bst">
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -279,10 +299,13 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
     <div className="home_div">
+<Link to={'/graph'} style={{textDecoration:"none"}}>
+
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
-      <CardActionArea>
+      <CardActionArea href="/graph"> 
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
@@ -308,8 +331,9 @@ const Home = () => {
        
       </CardActions>
     </Card>
+    </Link>
     </div>
-    <Comment/>
+    {/* <Comment/> */}
    </div>
   );
 };

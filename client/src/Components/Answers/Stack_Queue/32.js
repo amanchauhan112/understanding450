@@ -1,5 +1,5 @@
 import React from 'react'
-import Comment from '../../Comment/Comment';
+// import Comment from '../../Comment/Comment';
 import '../../Answers/answer.css';
 import Editor from 'react-simple-code-editor';
 import { highlight, languages } from 'prismjs/components/prism-core';
@@ -109,7 +109,7 @@ render(){
         className="answer"
       />
 
-       <Comment/>
+       {/* <Comment/> */}
 
       
       

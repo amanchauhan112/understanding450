@@ -9,9 +9,6 @@ const String = () => {
       </div>
 
 <br/>
-<h1><Checkbox/>Q31.<a href="https://practice.geeksforgeeks.org/problems/rotten-oranges/0" style={{color:'black'}}>Rotten Oranges</a></h1>
-<a href="/31" style={{color:'blue',textDecoration:"none"}}> &emsp;&emsp;&emsp;&emsp;&emsp; Link to answer</a>
-
 
     </div>
   );

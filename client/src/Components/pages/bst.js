@@ -9,9 +9,7 @@ const BST = () => {
       </div>
 
 <br/>
-<h1><Checkbox/>Q1.<a href="https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/" style={{color:'black'}}>Reverse the array</a></h1>
-<a href="/one" style={{color:'blue',textDecoration:"none"}}> &emsp;&emsp;&emsp;&emsp;&emsp; Link to answer</a>
-   
+
     </div>
   );
 };
