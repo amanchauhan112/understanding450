@@ -89,8 +89,6 @@ export default function Login(){
             
         })
         console.log("good2")
-        console.log(body)
-        console.log("goodk")
         .then(res=>console.log(res))
         console.log("goodk2")
         .then(res=>res.json())
