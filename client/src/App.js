@@ -51,9 +51,9 @@ import g_5 from '../src/Components/Answers/Graph/5';
 
 
 
-import Register from './Components/userInput/register';
-import Login from './Components/userInput/login';
-import Logout from './Components/userInput/logout';
+// import Register from './Components/userInput/register';
+// import Login from './Components/userInput/login';
+// import Logout from './Components/userInput/logout';
 
 
 export const UserContext =createContext()
@@ -72,7 +72,7 @@ useEffect(()=>{
     // history.push('/')
 
   }else{
-         history.push('/login')
+        //  history.push('/login')
   }
 
 
@@ -92,9 +92,9 @@ useEffect(()=>{
       <Route exact path='/bst' component={BST} />
       <Route exact path='/stack_queue' component={Stack_Queue} />
       <Route exact path='/graph' component={Graph} />
-      <Route exact path='/register' component={Register} />
+      {/* <Route exact path='/register' component={Register} />
       <Route exact path='/login' component={Login} />
-      <Route exact path='/logout' component={Logout} />
+      <Route exact path='/logout' component={Logout} /> */}
       
       {/* //answers  */}
       
