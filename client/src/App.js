@@ -67,13 +67,13 @@ useEffect(()=>{
 
   const user = JSON.parse(localStorage.getItem("user"))
 
-  if(user){
-    dispatch({type:"USER",payload:user})
-    // history.push('/')
+  // if(user){
+  //   dispatch({type:"USER",payload:user})
+  //   // history.push('/')
 
-  }else{
-         history.push('/')
-  }
+  // }else{
+  //        history.push('/')
+  // }
 
 
 },[]);

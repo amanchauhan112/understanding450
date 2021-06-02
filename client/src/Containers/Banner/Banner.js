@@ -1,4 +1,6 @@
 import React from "react";
+import "./Banner.css"
+
 
 function Banner({ children, title, subTitle }) {
   return (
