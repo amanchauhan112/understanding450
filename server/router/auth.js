@@ -14,13 +14,14 @@ router.get(
         
         (req,res)=>{
             // const email = req.user.googleId;
-            // const userExist = await User.findOne({ email: req.user.id });
+            // const userExist = User.findOne({ email: req.user.id });
 
-            // let token = await userExist.generateAuthToken();
+            // let token = userExist.generateAuthToken();
             // res.cookie("jwt",token,{
             //   httpOnly:true,
+        
             // });
-            res.redirect('/dashboard')
+            res.redirect('http://localhost:3000/')
         }
         )
 

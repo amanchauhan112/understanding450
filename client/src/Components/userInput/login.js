@@ -67,51 +67,63 @@ export default function Login(){
 
     const history = useHistory();
     const [email, setEmail] = useState("");
-    // const [name, setName] = useState("");
+    const [name, setName] = useState([]);
     const [password, setPassword] = useState("");
 
 
     async function handleClick(){
-        console.log(email)
       try{  
-    //    const res = await 
-    console.log("good1")
 
-       fetch('https://understanding450.herokuapp.com/api/login',{
-            method:'POST',
-            body: JSON.stringify({
-                email: email,
-                password: password
-            }),
-            headers: {
-                "content-type": "application/json; charset=UTF-8"
-            },
+    fetch('http://localhost:8080/auth/ggdet/',{
+                // method:'POST'
+            })
+    .then(res=>res.json())
+    .then(data=>
+        console.log(data)
+    )
+    .catch(err=>{
+        console.log("good4")
+
+         console.log(err)
+     })
+
+    //  console.log(email)
+
+    //    fetch('/api/login',{
+    //         method:'POST',
+    //         body: JSON.stringify({
+    //             email: email,
+    //             password: password
+    //         }),
+    //         headers: {
+    //             "content-type": "application/json; charset=UTF-8"
+    //         },
             
-        })
-        console.log("good2")
-        .then(res=>res.json())
-        console.log("goodk3")
-        .then(data=>{
-            if(data.error){
-                console.log("error")
-            //    M.toast({html: data.error,classes:"#c62828 red darken-3"})
-            }
-            else{
-                console.log("good3")
+    //     })
+    //     // console.log("good2")
+    //     .then(res=>res.json())
+    //     // console.log("goodk3")
+    //     .then(data=>{
+    //         if(data.error){
+    //             // console.log("error")
+    //         //    M.toast({html: data.error,classes:"#c62828 red darken-3"})
+    //         }
+    //         else{
+    //             console.log("good3")
  
-                 localStorage.setItem("jwt",data.token)
-                 localStorage.setItem("user",JSON.stringify(data.user))//Since user is an object we need to stringify it
-                 dispatch({type:"USER",payload:data.user})
-                console.log("good")
+    //              localStorage.setItem("jwt",data.token)
+    //              localStorage.setItem("user",JSON.stringify(data.user))//Since user is an object we need to stringify it
+    //              dispatch({type:"USER",payload:data.user})
+    //             console.log("good")
 
-                //  M.toast({html:"Signedin success",classes:"#43a047 green darken-1"})
-                // history.push('/')
-            }
-         }).catch(err=>{
-            console.log("good4")
+    //             //  M.toast({html:"Signedin success",classes:"#43a047 green darken-1"})
+    //             // history.push('/')
+    //         }
+    //      }).catch(err=>{
+    //         console.log("good4")
 
-             console.log(err)
-         })
+    //          console.log(err)
+    //      })
 
         // const res2 = await fetch('/gooo/',{
         //     method:'GET',
@@ -140,16 +152,18 @@ export default function Login(){
       catch(err)
       {
           console.log("incorrect details")
-          console.log(err)
+        //   console.log(err)
       }    
     }
 
     const classes = useStyles()
     return(
         <div className={classes.container}>
+          data.map(return(<h1> {name}</h1>)) 
         <Paper elevation={2} className={classes.loginForm}>
           <div className={classes.textfields}>
             <AccountCircleIcon className={classes.loginIcon} fontSize='large'/>
+           
             <TextField 
                 type="email"
                 className={classes.textfield} 
@@ -178,7 +192,7 @@ export default function Login(){
             {/* <h4>{name} </h4> */}
             <Button 
                 className={classes.loginButton}
-                href="https://understanding450.herokuapp.com/auth/google">
+                href="http://localhost:8080/auth/google">
                    Login With Google
             </Button>
           </div>    

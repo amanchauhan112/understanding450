@@ -7,12 +7,13 @@ module.exports=function(passport){
     passport.use(
         new GoogleStrategy({
         clientID:process.env.GOOGLE_CLIENT_ID,
-        clientSecret:process.env.GOOGLE.CLIENT.SECRET,
-        callbackURL:'https://understanding450.herokuapp.com/auth/google/callback'
+        clientSecret:process.env.GOOGLE_CLIENT_SECRET,
+        callbackURL:'http://localhost:8080/auth/google/callback'
+        // callbackURL:'https://understanding450.herokuapp.com/auth/google/callback'
     },
     
     async(accessToken,refreshToken,profile,done)=>{
-        // console.log(profile)
+        console.log(profile)
 
         const newUser={
             googleId:profile.id,

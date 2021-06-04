@@ -33,7 +33,7 @@ const useStyles = makeStyles({
 const Home = () => {
 
   const classes = useStyles();
-
+  useEffect(() => {    // Update the document title using the browser API    document.title = `You clicked ${count} times`;  });
   return (
     <div className="home_content" >
 <div className="home_div">

@@ -276,6 +276,12 @@ router.get('/dashboard',(req,res)=>{
     // res.redirect('http://localhost:3000/',{ name:req.user.firstName,})
 })
 
+router.get('/ggdet',(req,res)=>{
+    console.log('Dashboard')
+    console.log(req.user)
+
+    res.json({user:req.user})
+})
 
 router.get('/logoutemp',(req,res)=>{
     req.logout()

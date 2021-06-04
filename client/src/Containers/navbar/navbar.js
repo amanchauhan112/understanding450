@@ -10,7 +10,7 @@ import {
   import Sidebarr from '../sidebar/Sidebar';
 
   // import {useHistory} from 'react-router-dom';
-  
+  import ToggleSwitch from '../../Components/ToggleSwitch/ToggleSwitch';
 import './navbar.css';
 
     function Navbar() {
@@ -70,8 +70,10 @@ onClick={handleClick}
 >Login</Button> */}
 <NavLink to="/login" >Login</NavLink>
 <NavLink to="/logout" > Logout</NavLink>
+
 </NavMenu>
 
+<ToggleSwitch/>
 
 </Nav>
         </div>
