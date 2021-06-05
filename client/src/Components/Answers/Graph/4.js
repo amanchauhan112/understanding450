@@ -1,5 +1,5 @@
 import React from 'react'
-import Comment from '../../Comment/Comment';
+// import Comment from '../../Comment/Comment';
 import '../../Answers/answer.css';
 import 'prismjs/components/prism-clike';
 import 'prismjs/components/prism-javascript';

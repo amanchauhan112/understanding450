@@ -62,15 +62,7 @@ import './navbar.css';
   
 
 
-<NavLink to="/" >   Home</NavLink>
 <NavLink to="/about" >   About</NavLink>
-<NavLink to="/register" > Register</NavLink>
-{/* <Button  href="" 
-onClick={handleClick}
->Login</Button> */}
-<NavLink to="/login" >Login</NavLink>
-<NavLink to="/logout" > Logout</NavLink>
-
 </NavMenu>
 
 <ToggleSwitch/>

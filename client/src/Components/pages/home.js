@@ -12,8 +12,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-import Comment from '../Comment/Comment';
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 250,
@@ -33,7 +31,7 @@ const useStyles = makeStyles({
 const Home = () => {
 
   const classes = useStyles();
-  useEffect(() => {    // Update the document title using the browser API    document.title = `You clicked ${count} times`;  });
+  // useEffect(() => {    // Update the document title using the browser API    document.title = `You clicked ${count} times`;  });
   return (
     <div className="home_content" >
 <div className="home_div">
@@ -336,6 +334,6 @@ const Home = () => {
     {/* <Comment/> */}
    </div>
   );
-};
+}
 
 export default Home;

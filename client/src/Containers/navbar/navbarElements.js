@@ -41,7 +41,7 @@ export const NavHead = styled(Link)`
 export const NavMenu = styled.div`
   display: flex;
 //  justify-content: flex-start;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: none;
   }
 `;

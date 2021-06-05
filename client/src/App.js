@@ -49,13 +49,6 @@ import g_3 from '../src/Components/Answers/Graph/3';
 import g_4 from '../src/Components/Answers/Graph/4';
 import g_5 from '../src/Components/Answers/Graph/5';
 
-
-
-import Register from './Components/userInput/register';
-import Login from './Components/userInput/login';
-import Logout from './Components/userInput/logout';
-
-
 export const UserContext =createContext()
 
 
@@ -92,10 +85,6 @@ useEffect(()=>{
       <Route exact path='/bst' component={BST} />
       <Route exact path='/stack_queue' component={Stack_Queue} />
       <Route exact path='/graph' component={Graph} />
-      <Route exact path='/register' component={Register} />
-      <Route exact path='/login' component={Login} />
-      <Route exact path='/logout' component={Logout} />
-      
       {/* //answers  */}
       
       {/* Array */}
