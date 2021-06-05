@@ -23,7 +23,7 @@
     /* top: 10; */
     margin-left: 0px;
     /* transform: translate(-100%, 75%); */
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }}
 
@@ -84,4 +84,12 @@
 
   .headddd:hover{
     color:#15cdfc;
+  }
+
+  @media screen and (max-width:335px) {
+    .menu-bars{
+      font-size: 1rem;
+      margin-left: 0px;
+    }
+
   }

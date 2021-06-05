@@ -65,7 +65,7 @@ import './navbar.css';
 <NavLink to="/about" >   About</NavLink>
 </NavMenu>
 
-<ToggleSwitch/>
+{/* <ToggleSwitch/> */}
 
 </Nav>
         </div>

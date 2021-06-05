@@ -36,9 +36,9 @@ import BST from './Components/pages/bst';
 //Stack_Queue
 //<------------------------------------------------>
 
-import thirty_one from '../src/Components/Answers/Stack_Queue/31';
-import thirty_two from '../src/Components/Answers/Stack_Queue/32';
-import thirty_three from '../src/Components/Answers/Stack_Queue/33';
+import sq_31 from '../src/Components/Answers/Stack_Queue/31';
+import sq_32 from '../src/Components/Answers/Stack_Queue/32';
+import sq_33 from '../src/Components/Answers/Stack_Queue/33';
 
 //Graph
 //<------------------------------------------------>
@@ -53,24 +53,6 @@ export const UserContext =createContext()
 
 
 const Routing=()=>{
-  const history=useHistory()
-  const {dispatch} = useContext(UserContext)
-
-useEffect(()=>{
-
-  const user = JSON.parse(localStorage.getItem("user"))
-
-  // if(user){
-  //   dispatch({type:"USER",payload:user})
-  //   // history.push('/')
-
-  // }else{
-  //        history.push('/')
-  // }
-
-
-},[]);
-
   return(
   
   <Switch>
@@ -98,24 +80,61 @@ useEffect(()=>{
 
       
       {/* Stack_Queue */}
-      <Route  path='/31' component={thirty_one}/>
-      <Route  path='/32' component={thirty_two}/>
-      <Route  path='/33' component={thirty_three}/>
+      <Route  path='/sq_31' component={sq_31}/>
+      <Route  path='/sq_32' component={sq_32}/>
+      <Route  path='/sq_33' component={sq_33}/>
       
 
      {/* Graph */}
-     <Route  path='/g_1' component={g_1}/>
+      <Route  path='/g_1' component={g_1}/>
       <Route  path='/g_2' component={g_2}/>
       <Route  path='/g_3' component={g_3}/>
       <Route  path='/g_4' component={g_4}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_5' component={g_5}/>
       <Route  path='/g_5' component={g_5}/>
       
 
 
 
       <Route component={Error} />
-      
-
+    
  
 </Switch>
   )
