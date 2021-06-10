@@ -24,6 +24,9 @@ const Stack = () => {
 <a href="/g_5" className="answer_link"> &emsp; Link to answer</a>
 
 
+<h1>Q6.<a href="" className="question">Word ladder</a></h1>
+<a href="/g_6" className="answer_link"> &emsp; Link to answer</a>
+
 
 
 

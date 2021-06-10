@@ -48,6 +48,7 @@ import g_2 from '../src/Components/Answers/Graph/2';
 import g_3 from '../src/Components/Answers/Graph/3';
 import g_4 from '../src/Components/Answers/Graph/4';
 import g_5 from '../src/Components/Answers/Graph/5';
+import g_6 from '../src/Components/Answers/Graph/6';
 
 export const UserContext =createContext()
 
@@ -91,7 +92,7 @@ const Routing=()=>{
       <Route  path='/g_3' component={g_3}/>
       <Route  path='/g_4' component={g_4}/>
       <Route  path='/g_5' component={g_5}/>
-      <Route  path='/g_5' component={g_5}/>
+      <Route  path='/g_6' component={g_6}/>
       <Route  path='/g_5' component={g_5}/>
       <Route  path='/g_5' component={g_5}/>
       <Route  path='/g_5' component={g_5}/>
