@@ -40,6 +40,29 @@ import sq_31 from '../src/Components/Answers/Stack_Queue/31';
 import sq_32 from '../src/Components/Answers/Stack_Queue/32';
 import sq_33 from '../src/Components/Answers/Stack_Queue/33';
 
+//Linked List
+//<------------------------------------------------>
+
+import ll1 from './Components/Answers/Linked List/ll1'
+import ll2 from './Components/Answers/Linked List/ll2'
+import ll3 from './Components/Answers/Linked List/ll3'
+import ll4 from './Components/Answers/Linked List/ll4'
+import ll5 from './Components/Answers/Linked List/ll5'
+import ll6 from './Components/Answers/Linked List/ll6'
+import ll7 from './Components/Answers/Linked List/ll7'
+import ll8 from './Components/Answers/Linked List/ll8'
+import ll9 from './Components/Answers/Linked List/ll9'
+import ll10 from './Components/Answers/Linked List/ll10'
+import ll11 from './Components/Answers/Linked List/ll11'
+import ll12 from './Components/Answers/Linked List/ll12'
+import ll13 from './Components/Answers/Linked List/ll13'
+import ll14 from './Components/Answers/Linked List/ll14'
+import ll15 from './Components/Answers/Linked List/ll15'
+import ll16 from './Components/Answers/Linked List/ll16'
+
+
+//<------------------------------------------------>
+
 //Graph
 //<------------------------------------------------>
 
@@ -85,6 +108,23 @@ const Routing=()=>{
       <Route  path='/sq_32' component={sq_32}/>
       <Route  path='/sq_33' component={sq_33}/>
       
+      {/* Linked List */}
+      <Route path='/ll_1' component={ll1} />
+      <Route path='/ll_2' component={ll2} />
+      <Route path='/ll_3' component={ll3} />
+      <Route path='/ll_4' component={ll4} />
+      <Route path='/ll_5' component={ll5} />
+      <Route path='/ll_6' component={ll6} />
+      <Route path='/ll_7' component={ll7} />
+      <Route path='/ll_8' component={ll8} />
+      <Route path='/ll_9' component={ll9} />
+      <Route path='/ll_10'component={ll10} />
+      <Route path='/ll_11'component={ll11} />
+      <Route path='/ll_12'component={ll12} />
+      <Route path='/ll_13'component={ll13} />
+      <Route path='/ll_14'component={ll14} />
+      <Route path='/ll_15'component={ll15} />
+      <Route path='/ll_16'component={ll16} />
 
      {/* Graph */}
       <Route  path='/g_1' component={g_1}/>
