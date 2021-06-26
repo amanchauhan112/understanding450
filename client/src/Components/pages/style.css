@@ -48,6 +48,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color:rgb(149, 206, 255);
+  margin-bottom: 30px;
 }
 
 /* .content {
@@ -60,6 +61,7 @@ h1{
 
 .question{
   color:black;
+  margin: 15px;
 }
 
 .answer_link{
@@ -67,6 +69,9 @@ h1{
   text-decoration:none;
 }
 
+a{
+  font-size: 20px;
+}
 @media screen and (max-width:950px) {
   .home_div{
     width: 40%;
