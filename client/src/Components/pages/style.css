@@ -64,6 +64,11 @@ h1{
   margin: 15px;
 }
 
+.questions_page{
+  overflow: auto;
+
+}
+
 .answer_link{
   color:rgb(107, 107, 255);
   text-decoration:none;
