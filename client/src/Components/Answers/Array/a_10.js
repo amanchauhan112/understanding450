@@ -10,12 +10,12 @@ render(){
 
          
         {/* <div className="ans_heading"> */}
-     <div style={{border:'2px solid black',backgroundColor:"white",marginTop:'20px',display:'flex',justifyContent:'center',borderRadius:'50px 50px 50px 50px'}}>
+     <div className="ans_heading">
 
          <h1 >Minimum no. of Jumps to reach end of an array</h1><br/>
          </div>
          <br></br>
-         <div style={{border:'2px solid black',marginLeft:'2%',marginBottom:'10%',borderRadius:'50px 50px 50px 50px',padding:'0px'}}>
+         <div className="solution">
 <div>
 
 <h1>Optimal Approach :</h1>

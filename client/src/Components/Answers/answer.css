@@ -1,6 +1,6 @@
 .div{
-    justify-content:'center';
-    overflow:'auto';
+    /* justify-content:'center'; */
+    overflow:auto;
 }
 
 .ans_heading {
@@ -37,3 +37,4 @@
   font-size: 20px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+

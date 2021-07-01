@@ -4,13 +4,11 @@ import {
     Nav,
     NavLink,
     NavMenu,
-    NavHead
- 
   } from './navbarElements';
   import Sidebarr from '../sidebar/Sidebar';
 
   // import {useHistory} from 'react-router-dom';
-  import ToggleSwitch from '../../Components/ToggleSwitch/ToggleSwitch';
+  // import ToggleSwitch from '../../Components/ToggleSwitch/ToggleSwitch';
 import './navbar.css';
 
     function Navbar() {

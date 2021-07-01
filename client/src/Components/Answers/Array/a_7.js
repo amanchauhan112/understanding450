@@ -10,12 +10,12 @@ render(){
 
          
         {/* <div className="ans_heading"> */}
-     <div style={{border:'2px solid black',backgroundColor:"white",marginTop:'20px',display:'flex',justifyContent:'center',borderRadius:'50px 50px 50px 50px'}}>
+     <div className="ans_heading">
 
          <h1 >Write a program to cyclically rotate an array by one.</h1><br/>
          </div>
          <br></br>
-         <div style={{border:'2px solid black',paddingLeft:"200px",marginLeft:'2%',marginBottom:'10%',marginRight:'2%',borderRadius:'50px 50px 50px 50px',padding:'0px'}}>
+         <div className="solution">
 <div style={{paddingLeft:"20%"}} >
 
 <h1>Optimal Approach :</h1>
