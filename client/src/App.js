@@ -1,9 +1,9 @@
 import './App.css';
 import Navbar from './Containers/navbar/navbar';
 import './App.css';
-import React,{useEffect,createContext,useReducer,useContext} from 'react';
+import React,{createContext,useReducer} from 'react';
 // import Chat from './Chat';
-import {BrowserRouter as Router, Route, Switch,useHistory} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {reducer,initialState} from './reducers/userReducer';
 // import Profile from './components/pages/Profile';
 
@@ -17,6 +17,10 @@ import Stack_Queue from '../src/Components/pages/stack';
 import Matrix from '../src/Components/pages/matrix';
 import Graph from '../src/Components/pages/graph';
 import Error from '../src/Components/pages/error';
+import LinkedList from './Components/pages/linkedlist';
+import SearchSort from './Components/pages/search_sort';
+import BinaryTree from './Components/pages/binarytree';
+import BST from './Components/pages/bst';
 
 
 //Answers
@@ -26,12 +30,42 @@ import Error from '../src/Components/pages/error';
 //Array
 //<------------------------------------------------>
 
-import One from '../src/Components/Answers/Array/one';
-
-import LinkedList from './Components/pages/linkedlist';
-import SearchSort from './Components/pages/search_sort';
-import BinaryTree from './Components/pages/binarytree';
-import BST from './Components/pages/bst';
+import a_1 from '../src/Components/Answers/Array/a_1'
+import a_2 from '../src/Components/Answers/Array/a_2'
+import a_3 from '../src/Components/Answers/Array/a_3'
+import a_4 from '../src/Components/Answers/Array/a_4'
+import a_5 from '../src/Components/Answers/Array/a_5'
+import a_6 from '../src/Components/Answers/Array/a_6'
+import a_7 from '../src/Components/Answers/Array/a_7'
+import a_8 from '../src/Components/Answers/Array/a_8'
+import a_9 from '../src/Components/Answers/Array/a_9'
+import a_10 from '../src/Components/Answers/Array/a_10'
+import a_11 from '../src/Components/Answers/Array/a_11'
+import a_12 from '../src/Components/Answers/Array/a_12'
+import a_13 from '../src/Components/Answers/Array/a_13'
+import a_14 from '../src/Components/Answers/Array/a_14'
+import a_15 from '../src/Components/Answers/Array/a_15'
+import a_16 from '../src/Components/Answers/Array/a_16'
+import a_17 from '../src/Components/Answers/Array/a_17'
+import a_18 from '../src/Components/Answers/Array/a_18'
+import a_19 from '../src/Components/Answers/Array/a_19'
+import a_20 from '../src/Components/Answers/Array/a_20'
+import a_21 from '../src/Components/Answers/Array/a_21'
+import a_22 from '../src/Components/Answers/Array/a_22'
+import a_23 from '../src/Components/Answers/Array/a_23'
+import a_24 from '../src/Components/Answers/Array/a_24'
+import a_25 from '../src/Components/Answers/Array/a_25'
+import a_26 from '../src/Components/Answers/Array/a_26'
+import a_27 from '../src/Components/Answers/Array/a_27'
+import a_28 from '../src/Components/Answers/Array/a_28'
+import a_29 from '../src/Components/Answers/Array/a_29'
+import a_30 from '../src/Components/Answers/Array/a_30'
+import a_31 from '../src/Components/Answers/Array/a_31'
+import a_32 from '../src/Components/Answers/Array/a_32'
+import a_33 from '../src/Components/Answers/Array/a_33'
+import a_34 from '../src/Components/Answers/Array/a_34'
+import a_35 from '../src/Components/Answers/Array/a_35'
+import a_36 from '../src/Components/Answers/Array/a_36'
 
 //Stack_Queue
 //<------------------------------------------------>
@@ -94,16 +128,52 @@ const Routing=()=>{
       {/* //answers  */}
       
       {/* Array */}
-      <Route  path='/one' component={One}/>
-      
-      
-    
+      <Route  path='/a_1' component={a_1} />
+      <Route  path='/a_2' component={a_2} />
+      <Route  path='/a_3' component={a_3} />
+      <Route  path='/a_4' component={a_4} />
+      <Route  path='/a_5' component={a_5} />
+      <Route  path='/a_6' component={a_6} />
+      <Route  path='/a_7' component={a_7} />
+      <Route  path='/a_8' component={a_8} />
+      <Route  path='/a_9' component={a_9} />
+      <Route  path='/a_10' component={a_10} />
+
+      <Route  path='/a_11' component={a_11} />
+      <Route  path='/a_12' component={a_12} />
+      <Route  path='/a_13' component={a_13} />
+      <Route  path='/a_14' component={a_14} />
+      <Route  path='/a_15' component={a_15} />
+      <Route  path='/a_16' component={a_16} />
+      <Route  path='/a_17' component={a_17} />
+      <Route  path='/a_18' component={a_18} />
+      <Route  path='/a_19' component={a_19} />
+      <Route  path='/a_20' component={a_20} />   
+
+      <Route  path='/a_21' component={a_21} />
+      <Route  path='/a_22' component={a_22} />
+      <Route  path='/a_23' component={a_23} />
+      <Route  path='/a_24' component={a_24} />
+      <Route  path='/a_25' component={a_25} />
+      <Route  path='/a_26' component={a_26} />
+      <Route  path='/a_27' component={a_27} />
+      <Route  path='/a_28' component={a_28} />
+      <Route  path='/a_29' component={a_29} />
+      <Route  path='/a_30' component={a_30} />     
+
+      <Route  path='/a_31' component={a_31} />
+      <Route  path='/a_32' component={a_32} />
+      <Route  path='/a_33' component={a_33} />
+      <Route  path='/a_34' component={a_34} />
+      <Route  path='/a_35' component={a_35} />
+      <Route  path='/a_36' component={a_36} />   
 
 
 
 
       
       {/* Stack_Queue */}
+
       <Route  path='/sq_31' component={sq_31}/>
       <Route  path='/sq_32' component={sq_32}/>
       <Route  path='/sq_33' component={sq_33}/>
