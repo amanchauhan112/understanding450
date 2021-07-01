@@ -17,11 +17,7 @@ const useStyles = makeStyles({
     maxWidth: 250,
     maxHeight:300,
     // minWidth:250,
-    ["@media (max-width:800px)"]: 
-    { 
-      // minWidth:"50%" ,
-      // padding:"20px",
-  }
+ 
   },
   
   

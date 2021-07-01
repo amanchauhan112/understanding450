@@ -24,7 +24,7 @@ const a = () => {
 <p>Sort this new array and find median of it.</p>
 
 <h2>Solution 2:</h2>
-<p>First sort both array without using extra space</p>
+<p>First <a href="https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1">Sort both array without using extra space</a></p>
 <p>Find median assuming them as one array.</p>
 
     </div>
