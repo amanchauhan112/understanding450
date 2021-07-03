@@ -17,7 +17,7 @@ render(){
          <h1 >Reverse a Linked List</h1><br/>
          </div>
          <br></br>
-         <div style={{border:'2px solid black',justifyContent:'center',marginLeft:'2%',marginBottom:'10%',marginRight:'2%',borderRadius:'50px 50px 50px 50px',padding:'0px',display:'flex',justifyContent:'center'}}>
+         <div style={{border:'2px solid black',marginLeft:'2%',marginBottom:'10%',marginRight:'2%',borderRadius:'50px 50px 50px 50px',padding:'0px',display:'flex',justifyContent:'center'}}>
 <div>
 
 <h1>Optimal Approach :</h1>

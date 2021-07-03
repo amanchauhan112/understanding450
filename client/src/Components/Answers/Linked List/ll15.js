@@ -8,16 +8,15 @@ class one extends React.Component {
 
 render(){
     return (
-        <div className="div"  style={{justifyContent:'center',overflow:'auto'}}>
+        <div className="div"  >
 
          
-        {/* <div className="ans_heading"> */}
-     <div style={{border:'2px solid black',backgroundColor:"white",marginTop:'20px',display:'flex',justifyContent:'center',borderRadius:'50px 50px 50px 50px'}}>
-
+        <div className="ans_heading">
+    
          <h1 >Middle of Linked List:</h1><br/>
          </div>
          <br></br>
-         <div style={{border:'2px solid black',justifyContent:'center',marginLeft:'2%',marginBottom:'10%',marginRight:'2%',borderRadius:'50px 50px 50px 50px',padding:'0px',display:'flex',justifyContent:'center'}}>
+         <div className="solution">
 <div>
 
 <h1>Optimal Approach :</h1>
