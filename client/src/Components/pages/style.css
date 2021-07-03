@@ -47,7 +47,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color:rgb(149, 206, 255);
+  /* background-color:rgb(149, 206, 255); */
+  background-color:rgb(109, 167, 255);
   margin-bottom: 30px;
 }
 
@@ -57,6 +58,11 @@ body {
 
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Ques{
+  color: rgb(3, 73, 67);
+  font-size: 22px;
 }
 
 .question{
