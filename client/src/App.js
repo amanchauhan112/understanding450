@@ -67,6 +67,20 @@ import a_34 from '../src/Components/Answers/Array/a_34'
 import a_35 from '../src/Components/Answers/Array/a_35'
 import a_36 from '../src/Components/Answers/Array/a_36'
 
+//Matrix
+//<------------------------------------------------>
+
+import m_1 from '../src/Components/Answers/Matrix/m_1';
+import m_2 from '../src/Components/Answers/Matrix/m_2';
+import m_3 from '../src/Components/Answers/Matrix/m_3';
+import m_4 from '../src/Components/Answers/Matrix/m_4';
+import m_5 from '../src/Components/Answers/Matrix/m_5';
+import m_6 from '../src/Components/Answers/Matrix/m_6';
+import m_7 from '../src/Components/Answers/Matrix/m_7';
+import m_8 from '../src/Components/Answers/Matrix/m_8';
+import m_9 from '../src/Components/Answers/Matrix/m_9';
+import m_10 from '../src/Components/Answers/Matrix/m_10';
+
 //Stack_Queue
 //<------------------------------------------------>
 
@@ -168,7 +182,18 @@ const Routing=()=>{
       <Route  path='/a_35' component={a_35} />
       <Route  path='/a_36' component={a_36} />   
 
+      {/* Matrix */}
 
+      <Route  path='/m_1' component={m_1} />
+      <Route  path='/m_2' component={m_2} />
+      <Route  path='/m_3' component={m_3} />
+      <Route  path='/m_4' component={m_4} />
+      <Route  path='/m_5' component={m_5} />
+      <Route  path='/m_6' component={m_6} />
+      <Route  path='/m_7' component={m_7} />
+      <Route  path='/m_8' component={m_8} />
+      <Route  path='/m_9' component={m_9} />
+      <Route  path='/m_10' component={m_10} />
 
 
       
