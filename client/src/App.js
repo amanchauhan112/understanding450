@@ -107,6 +107,26 @@ import ll13 from './Components/Answers/Linked List/ll13'
 import ll14 from './Components/Answers/Linked List/ll14'
 import ll15 from './Components/Answers/Linked List/ll15'
 import ll16 from './Components/Answers/Linked List/ll16'
+import ll_17 from './Components/Answers/Linked List/ll_17'
+import ll_18 from './Components/Answers/Linked List/ll_18'
+import ll_19 from './Components/Answers/Linked List/ll_19'
+import ll_20 from './Components/Answers/Linked List/ll_20'
+import ll_21 from './Components/Answers/Linked List/ll_21'
+import ll_22 from './Components/Answers/Linked List/ll_22'
+import ll_23 from './Components/Answers/Linked List/ll_23'
+import ll_24 from './Components/Answers/Linked List/ll_24'
+import ll_25 from './Components/Answers/Linked List/ll_25'
+import ll_26 from './Components/Answers/Linked List/ll_26'
+import ll_27 from './Components/Answers/Linked List/ll_27'
+import ll_28 from './Components/Answers/Linked List/ll_28'
+import ll_29 from './Components/Answers/Linked List/ll_29'
+import ll_30 from './Components/Answers/Linked List/ll_30'
+import ll_31 from './Components/Answers/Linked List/ll_31'
+import ll_32 from './Components/Answers/Linked List/ll_32'
+import ll_33 from './Components/Answers/Linked List/ll_33'
+import ll_34 from './Components/Answers/Linked List/ll_34'
+import ll_35 from './Components/Answers/Linked List/ll_35'
+import ll_36 from './Components/Answers/Linked List/ll_36'
 
 
 //<------------------------------------------------>
@@ -204,22 +224,42 @@ const Routing=()=>{
       <Route  path='/sq_33' component={sq_33}/>
       
       {/* Linked List */}
-      <Route path='/ll_1' component={ll1} />
-      <Route path='/ll_2' component={ll2} />
-      <Route path='/ll_3' component={ll3} />
-      <Route path='/ll_4' component={ll4} />
-      <Route path='/ll_5' component={ll5} />
-      <Route path='/ll_6' component={ll6} />
-      <Route path='/ll_7' component={ll7} />
-      <Route path='/ll_8' component={ll8} />
-      <Route path='/ll_9' component={ll9} />
-      <Route path='/ll_10'component={ll10} />
-      <Route path='/ll_11'component={ll11} />
-      <Route path='/ll_12'component={ll12} />
-      <Route path='/ll_13'component={ll13} />
-      <Route path='/ll_14'component={ll14} />
-      <Route path='/ll_15'component={ll15} />
-      <Route path='/ll_16'component={ll16} />
+      <Route path='/ll_1'   component={ll1} />
+      <Route path='/ll_2'   component={ll2} />
+      <Route path='/ll_3'   component={ll3} />
+      <Route path='/ll_4'   component={ll4} />
+      <Route path='/ll_5'   component={ll5} />
+      <Route path='/ll_6'   component={ll6} />
+      <Route path='/ll_7'   component={ll7} />
+      <Route path='/ll_8'   component={ll8} />
+      <Route path='/ll_9'   component={ll9} />
+      <Route path='/ll_10'  component={ll10} />
+      <Route path='/ll_11'  component={ll11} />
+      <Route path='/ll_12'  component={ll12} />
+      <Route path='/ll_13'  component={ll13} />
+      <Route path='/ll_14'  component={ll14} />
+      <Route path='/ll_15'  component={ll15} />
+      <Route path='/ll_16'  component={ll16} />
+      <Route path='/ll_17'  component={ll_17} />
+      <Route path='/ll_18'  component={ll_18} />
+      <Route path='/ll_19'  component={ll_19} />
+      <Route path='/ll_20'  component={ll_20} />
+      <Route path='/ll_21'  component={ll_21} />
+      <Route path='/ll_22'  component={ll_22} />
+      <Route path='/ll_23'  component={ll_23} />
+      <Route path='/ll_24'  component={ll_24} />
+      <Route path='/ll_25'  component={ll_25} />
+      <Route path='/ll_26'  component={ll_26} />
+      <Route path='/ll_27'  component={ll_27} />
+      <Route path='/ll_28'  component={ll_28} />
+      <Route path='/ll_29'  component={ll_29} />
+      <Route path='/ll_30'  component={ll_30} />
+      <Route path='/ll_31'  component={ll_31} />
+      <Route path='/ll_32'  component={ll_32} />
+      <Route path='/ll_33'  component={ll_33} />
+      <Route path='/ll_34'  component={ll_34} />
+      <Route path='/ll_35'  component={ll_35} />
+      <Route path='/ll_36'  component={ll_36} />
 
      {/* Graph */}
       <Route  path='/g_1' component={g_1}/>
