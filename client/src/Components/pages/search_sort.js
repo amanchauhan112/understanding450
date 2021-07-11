@@ -70,55 +70,55 @@ const SearchSort = () => {
 <h1 className="Ques" ><a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/rasta-and-kheshtak/" className="q">20.Rasta and Kheshtak</a></h1>
 <a href="/ss_20" className="answer_link"> &emsp; Link to answer</a>
 
-{/* <h1 className="Ques" ><a href="" className="q">21.Kth smallest number again</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/kth-smallest-number-again-2/" className="q">21.Kth smallest number again</a></h1>
+<a href="/ss_21" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">22.Find pivot element in a sorted array</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/" className="q">22.Find pivot element in a sorted array</a></h1>
+<a href="/ss_22" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">23.K-th Element of Two Sorted Arrays</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1" className="q">23.K-th Element of Two Sorted Arrays[A.B.S]</a></h1>
+<a href="/ss_23" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">24.Aggressive cows</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.spoj.com/problems/AGGRCOW/" className="q">24.Aggressive cows[A.B.S]</a></h1>
+<a href="/ss_24" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">25.Book Allocation Problem</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0" className="q">25.Book Allocation Problem[A.B.S]</a></h1>
+<a href="/ss_25" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">26.EKOSPOJ:</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.spoj.com/problems/EKO/" className="q">26.EKOSPOJ[A.B.S]</a></h1>
+<a href="/ss_26" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">27.Job Scheduling Algo</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/" className="q">27.Job Scheduling Algo</a></h1>
+<a href="/ss_27" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">28.Missing Number in AP</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/arithmetic-number2815/1" className="q">28.Missing Number in AP</a></h1>
+<a href="/ss_28" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">29.Smallest number with atleastn trailing zeroes infactorial</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1" className="q">29.Smallest number with atleastn trailing zeroes infactorial</a></h1>
+<a href="/ss_29" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">30.Painters Partition Problem:</a></h1>
-<a href="/ss_2" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/the-painters-partition-problem1535/1" className="q">30.Painters Partition Problem[A.B.S]</a></h1>
+<a href="/ss_30" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">31.ROTI-Prata SPOJ</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.spoj.com/problems/PRATA/" className="q">31.ROTI-Prata SPOJ[A.B.S]</a></h1>
+<a href="/ss_31" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">32.DoubleHelix SPOJ</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.spoj.com/problems/ANARC05B/" className="q">32.DoubleHelix SPOJ</a></h1>
+<a href="/ss_32" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">33.Subset Sums</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.spoj.com/problems/SUBSUMS/" className="q">33.Subset Sums</a></h1>
+<a href="/ss_33" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">34.Findthe inversion count</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1" className="q">34.Findthe inversion count</a></h1>
+<a href="/ss_34" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">35.Implement Merge-sort in-place</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.geeksforgeeks.org/in-place-merge-sort/" className="q">35.Implement Merge-sort in-place</a></h1>
+<a href="/ss_35" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">36.Partitioning and Sorting Arrays with Many Repeated Entries</a></h1>
-<a href="/ss_3" className="answer_link"> &emsp; Link to answer</a>
+<h1 className="Ques" ><a href="https://www.baeldung.com/java-sorting-arrays-with-repeated-entries" className="q">36.Partitioning and Sorting Arrays with Many Repeated Entries</a></h1>
+<a href="/ss_36" className="answer_link"> &emsp; Link to answer</a>
 
- */}
+
 
 
     
