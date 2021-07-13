@@ -209,6 +209,51 @@ import ll_34 from './Components/Answers/Linked List/ll_34'
 import ll_35 from './Components/Answers/Linked List/ll_35'
 import ll_36 from './Components/Answers/Linked List/ll_36'
 
+//<---------------------------------------------------------------->
+
+
+//BT
+//<------------------------------------------------>
+
+import bt_1 from './Components/Answers/Binary Trees/bt_1'
+import bt_2 from './Components/Answers/Binary Trees/bt_2'
+import bt_3 from './Components/Answers/Binary Trees/bt_3'
+import bt_4 from './Components/Answers/Binary Trees/bt_4'
+import bt_5 from './Components/Answers/Binary Trees/bt_5'
+import bt_6 from './Components/Answers/Binary Trees/bt_6'
+import bt_7 from './Components/Answers/Binary Trees/bt_7'
+import bt_8 from './Components/Answers/Binary Trees/bt_8'
+import bt_9 from './Components/Answers/Binary Trees/bt_9'
+import bt_10 from './Components/Answers/Binary Trees/bt_10'
+
+// import bt_11 from './Components/Answers/Binary Trees/bt_11'
+// import bt_12 from './Components/Answers/Binary Trees/bt_12'
+// import bt_13 from './Components/Answers/Binary Trees/bt_13'
+// import bt_14 from './Components/Answers/Binary Trees/bt_14'
+// import bt_15 from './Components/Answers/Binary Trees/bt_15'
+// import bt_16 from './Components/Answers/Binary Trees/bt_16'
+// import bt_17 from './Components/Answers/Binary Trees/bt_17'
+// import bt_18 from './Components/Answers/Binary Trees/bt_18'
+// import bt_19 from './Components/Answers/Binary Trees/bt_19'
+// import bt_20 from './Components/Answers/Binary Trees/bt_20'
+
+// import bt_21 from './Components/Answers/Binary Trees/bt_21'
+// import bt_22 from './Components/Answers/Binary Trees/bt_22'
+// import bt_23 from './Components/Answers/Binary Trees/bt_23'
+// import bt_24 from './Components/Answers/Binary Trees/bt_24'
+// import bt_25 from './Components/Answers/Binary Trees/bt_25'
+// import bt_26 from './Components/Answers/Binary Trees/bt_26'
+// import bt_27 from './Components/Answers/Binary Trees/bt_27'
+// import bt_28 from './Components/Answers/Binary Trees/bt_28'
+// import bt_29 from './Components/Answers/Binary Trees/bt_29'
+// import bt_30 from './Components/Answers/Binary Trees/bt_30'
+
+// import bt_31 from './Components/Answers/Binary Trees/bt_31'
+// import bt_32 from './Components/Answers/Binary Trees/bt_32'
+// import bt_33 from './Components/Answers/Binary Trees/bt_33'
+// import bt_34 from './Components/Answers/Binary Trees/bt_34'
+// import bt_35 from './Components/Answers/Binary Trees/bt_35'
+
 //BST
 //<------------------------------------------------>
 
@@ -448,7 +493,49 @@ const Routing=()=>{
       <Route path='/ll_35'  component={ll_35} />
       <Route path='/ll_36'  component={ll_36} />
 
-    {/* Linked List */}
+    {/* Binary Tree */}
+    <Route path='/bt_1'  component={bt_1} />
+    <Route path='/bt_2'  component={bt_2} />
+    <Route path='/bt_3'  component={bt_3} />
+    <Route path='/bt_4'  component={bt_4} />
+    <Route path='/bt_5'  component={bt_5} />
+    <Route path='/bt_6'  component={bt_6} />
+    <Route path='/bt_7'  component={bt_7} />
+    <Route path='/bt_8'  component={bt_8} />
+    <Route path='/bt_9'  component={bt_9} />
+    <Route path='/bt_10'  component={bt_10} />
+
+    {/* <Route path='/bt_11'  component={bt_11} />
+    <Route path='/bt_12'  component={bt_12} />
+    <Route path='/bt_13'  component={bt_13} />
+    <Route path='/bt_14'  component={bt_14} />
+    <Route path='/bt_15'  component={bt_15} />
+    <Route path='/bt_16'  component={bt_16} />
+    <Route path='/bt_17'  component={bt_17} />
+    <Route path='/bt_18'  component={bt_18} />
+    <Route path='/bt_19'  component={bt_19} />
+    <Route path='/bt_20'  component={bt_20} />
+
+
+    <Route path='/bt_21'  component={bt_21} />
+    <Route path='/bt_22'  component={bt_22} />
+    <Route path='/bt_23'  component={bt_23} />
+    <Route path='/bt_24'  component={bt_24} />
+    <Route path='/bt_25'  component={bt_25} />
+    <Route path='/bt_26'  component={bt_26} />
+    <Route path='/bt_27'  component={bt_27} />
+    <Route path='/bt_28'  component={bt_28} />
+    <Route path='/bt_29'  component={bt_29} />
+    <Route path='/bt_30'  component={bt_30} />
+
+    <Route path='/bt_31'  component={bt_31} />
+    <Route path='/bt_32'  component={bt_32} />
+    <Route path='/bt_33'  component={bt_33} />
+    <Route path='/bt_34'  component={bt_34} />
+    <Route path='/bt_35'  component={bt_35} /> */}
+    
+
+    {/* BST */}
     <Route path='/bst_1'  component={bst_1} />
     <Route path='/bst_2'  component={bst_2} />
     <Route path='/bst_3'  component={bst_3} />
