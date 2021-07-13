@@ -209,6 +209,31 @@ import ll_34 from './Components/Answers/Linked List/ll_34'
 import ll_35 from './Components/Answers/Linked List/ll_35'
 import ll_36 from './Components/Answers/Linked List/ll_36'
 
+//BST
+//<------------------------------------------------>
+
+import bst_1 from './Components/Answers/BST/bst_1'
+import bst_2 from './Components/Answers/BST/bst_2'
+import bst_3 from './Components/Answers/BST/bst_3'
+import bst_4 from './Components/Answers/BST/bst_4'
+import bst_5 from './Components/Answers/BST/bst_5'
+import bst_6 from './Components/Answers/BST/bst_6'
+import bst_7 from './Components/Answers/BST/bst_7'
+import bst_8 from './Components/Answers/BST/bst_8'
+import bst_9 from './Components/Answers/BST/bst_9'
+import bst_10 from './Components/Answers/BST/bst_10'
+import bst_11 from './Components/Answers/BST/bst_11'
+import bst_12 from './Components/Answers/BST/bst_12'
+import bst_13 from './Components/Answers/BST/bst_13'
+import bst_14 from './Components/Answers/BST/bst_14'
+import bst_15 from './Components/Answers/BST/bst_15'
+import bst_16 from './Components/Answers/BST/bst_16'
+import bst_17 from './Components/Answers/BST/bst_17'
+import bst_18 from './Components/Answers/BST/bst_18'
+import bst_19 from './Components/Answers/BST/bst_19'
+import bst_20 from './Components/Answers/BST/bst_20'
+import bst_21 from './Components/Answers/BST/bst_21'
+import bst_22 from './Components/Answers/BST/bst_22'
 
 //<------------------------------------------------>
 
@@ -422,6 +447,32 @@ const Routing=()=>{
       <Route path='/ll_34'  component={ll_34} />
       <Route path='/ll_35'  component={ll_35} />
       <Route path='/ll_36'  component={ll_36} />
+
+    {/* Linked List */}
+    <Route path='/bst_1'  component={bst_1} />
+    <Route path='/bst_2'  component={bst_2} />
+    <Route path='/bst_3'  component={bst_3} />
+    <Route path='/bst_4'  component={bst_4} />
+    <Route path='/bst_5'  component={bst_5} />
+    <Route path='/bst_6'  component={bst_6} />
+    <Route path='/bst_7'  component={bst_7} />
+    <Route path='/bst_8'  component={bst_8} />
+    <Route path='/bst_9'  component={bst_9} />
+    <Route path='/bst_10'  component={bst_10} />
+    <Route path='/bst_11'  component={bst_11} />
+    <Route path='/bst_12'  component={bst_12} />
+    <Route path='/bst_13'  component={bst_13} />
+    <Route path='/bst_14'  component={bst_14} />
+    <Route path='/bst_15'  component={bst_15} />
+    <Route path='/bst_16'  component={bst_16} />
+    <Route path='/bst_17'  component={bst_17} />
+    <Route path='/bst_18'  component={bst_18} />
+    <Route path='/bst_19'  component={bst_19} />
+    <Route path='/bst_20'  component={bst_20} />
+    <Route path='/bst_21'  component={bst_21} />
+    <Route path='/bst_22'  component={bst_22} />
+
+
 
      {/* Graph */}
       <Route  path='/g_1' component={g_1}/>
