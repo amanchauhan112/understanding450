@@ -226,33 +226,33 @@ import bt_8 from './Components/Answers/Binary Trees/bt_8'
 import bt_9 from './Components/Answers/Binary Trees/bt_9'
 import bt_10 from './Components/Answers/Binary Trees/bt_10'
 
-// import bt_11 from './Components/Answers/Binary Trees/bt_11'
-// import bt_12 from './Components/Answers/Binary Trees/bt_12'
-// import bt_13 from './Components/Answers/Binary Trees/bt_13'
-// import bt_14 from './Components/Answers/Binary Trees/bt_14'
-// import bt_15 from './Components/Answers/Binary Trees/bt_15'
-// import bt_16 from './Components/Answers/Binary Trees/bt_16'
-// import bt_17 from './Components/Answers/Binary Trees/bt_17'
-// import bt_18 from './Components/Answers/Binary Trees/bt_18'
-// import bt_19 from './Components/Answers/Binary Trees/bt_19'
-// import bt_20 from './Components/Answers/Binary Trees/bt_20'
+import bt_11 from './Components/Answers/Binary Trees/bt_11'
+import bt_12 from './Components/Answers/Binary Trees/bt_12'
+import bt_13 from './Components/Answers/Binary Trees/bt_13'
+import bt_14 from './Components/Answers/Binary Trees/bt_14'
+import bt_15 from './Components/Answers/Binary Trees/bt_15'
+import bt_16 from './Components/Answers/Binary Trees/bt_16'
+import bt_17 from './Components/Answers/Binary Trees/bt_17'
+import bt_18 from './Components/Answers/Binary Trees/bt_18'
+import bt_19 from './Components/Answers/Binary Trees/bt_19'
+import bt_20 from './Components/Answers/Binary Trees/bt_20'
 
-// import bt_21 from './Components/Answers/Binary Trees/bt_21'
-// import bt_22 from './Components/Answers/Binary Trees/bt_22'
-// import bt_23 from './Components/Answers/Binary Trees/bt_23'
-// import bt_24 from './Components/Answers/Binary Trees/bt_24'
-// import bt_25 from './Components/Answers/Binary Trees/bt_25'
-// import bt_26 from './Components/Answers/Binary Trees/bt_26'
-// import bt_27 from './Components/Answers/Binary Trees/bt_27'
-// import bt_28 from './Components/Answers/Binary Trees/bt_28'
-// import bt_29 from './Components/Answers/Binary Trees/bt_29'
-// import bt_30 from './Components/Answers/Binary Trees/bt_30'
+import bt_21 from './Components/Answers/Binary Trees/bt_21'
+import bt_22 from './Components/Answers/Binary Trees/bt_22'
+import bt_23 from './Components/Answers/Binary Trees/bt_23'
+import bt_24 from './Components/Answers/Binary Trees/bt_24'
+import bt_25 from './Components/Answers/Binary Trees/bt_25'
+import bt_26 from './Components/Answers/Binary Trees/bt_26'
+import bt_27 from './Components/Answers/Binary Trees/bt_27'
+import bt_28 from './Components/Answers/Binary Trees/bt_28'
+import bt_29 from './Components/Answers/Binary Trees/bt_29'
+import bt_30 from './Components/Answers/Binary Trees/bt_30'
 
-// import bt_31 from './Components/Answers/Binary Trees/bt_31'
-// import bt_32 from './Components/Answers/Binary Trees/bt_32'
-// import bt_33 from './Components/Answers/Binary Trees/bt_33'
-// import bt_34 from './Components/Answers/Binary Trees/bt_34'
-// import bt_35 from './Components/Answers/Binary Trees/bt_35'
+import bt_31 from './Components/Answers/Binary Trees/bt_31'
+import bt_32 from './Components/Answers/Binary Trees/bt_32'
+import bt_33 from './Components/Answers/Binary Trees/bt_33'
+import bt_34 from './Components/Answers/Binary Trees/bt_34'
+import bt_35 from './Components/Answers/Binary Trees/bt_35'
 
 //BST
 //<------------------------------------------------>
@@ -505,7 +505,7 @@ const Routing=()=>{
     <Route path='/bt_9'  component={bt_9} />
     <Route path='/bt_10'  component={bt_10} />
 
-    {/* <Route path='/bt_11'  component={bt_11} />
+    <Route path='/bt_11'  component={bt_11} />
     <Route path='/bt_12'  component={bt_12} />
     <Route path='/bt_13'  component={bt_13} />
     <Route path='/bt_14'  component={bt_14} />
@@ -532,7 +532,7 @@ const Routing=()=>{
     <Route path='/bt_32'  component={bt_32} />
     <Route path='/bt_33'  component={bt_33} />
     <Route path='/bt_34'  component={bt_34} />
-    <Route path='/bt_35'  component={bt_35} /> */}
+    <Route path='/bt_35'  component={bt_35} />
     
 
     {/* BST */}

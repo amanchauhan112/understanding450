@@ -72,21 +72,25 @@ h1{
 
 .questions_page{
   overflow: auto;
-
-}
-.bst_questions{
-color: black;
-font-size: 25px;
-text-decoration:none;
+  padding-left: 15px;
 
 }
 
-.bt_questions{
-  color: rgb(163, 82, 96);
-  font-size: 20px;
+.bst_questions,.bt_questions
+{
+  font-size: 25px;
   text-decoration:none;
-  
-  }
+}
+
+.bst_questions
+      {
+      color: black;
+      }
+
+.bt_questions
+      {
+      color: rgb(163, 82, 96);
+      }
 
 .answer_link{
   color:rgb(53, 53, 255);
