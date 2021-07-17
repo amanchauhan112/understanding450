@@ -76,7 +76,7 @@ h1{
 
 }
 
-.bst_questions,.bt_questions
+.bst_questions,.bt_questions,.string_question
 {
   font-size: 25px;
   text-decoration:none;
@@ -90,6 +90,11 @@ h1{
 .bt_questions
       {
       color: rgb(163, 82, 96);
+      }
+
+.string_question
+      {
+      color: rgb(8, 46, 116);
       }
 
 .answer_link{

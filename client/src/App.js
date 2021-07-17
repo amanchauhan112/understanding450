@@ -67,6 +67,59 @@ import a_34 from '../src/Components/Answers/Array/a_34'
 import a_35 from '../src/Components/Answers/Array/a_35'
 import a_36 from '../src/Components/Answers/Array/a_36'
 
+//<------------------------------------------------>
+
+
+//String
+//<------------------------------------------------>
+import s_1 from '../src/Components/Answers/String/s_1'
+import s_2 from '../src/Components/Answers/String/s_2'
+import s_3 from '../src/Components/Answers/String/s_3'
+import s_4 from '../src/Components/Answers/String/s_4'
+import s_5 from '../src/Components/Answers/String/s_5'
+import s_6 from '../src/Components/Answers/String/s_6'
+import s_7 from '../src/Components/Answers/String/s_7'
+import s_8 from '../src/Components/Answers/String/s_8'
+import s_9 from '../src/Components/Answers/String/s_9'
+import s_10 from '../src/Components/Answers/String/s_10'
+
+import s_11 from '../src/Components/Answers/String/s_11'
+import s_12 from '../src/Components/Answers/String/s_12'
+import s_13 from '../src/Components/Answers/String/s_13'
+import s_14 from '../src/Components/Answers/String/s_14'
+import s_15 from '../src/Components/Answers/String/s_15'
+import s_16 from '../src/Components/Answers/String/s_16'
+import s_17 from '../src/Components/Answers/String/s_17'
+import s_18 from '../src/Components/Answers/String/s_18'
+import s_19 from '../src/Components/Answers/String/s_19'
+import s_20 from '../src/Components/Answers/String/s_20'
+
+// import s_1 from '../src/Components/Answers/String/s_'
+// import s_2 from '../src/Components/Answers/String/s_'
+// import s_3 from '../src/Components/Answers/String/s_'
+// import s_4 from '../src/Components/Answers/String/s_'
+// import s_5 from '../src/Components/Answers/String/s_'
+// import s_6 from '../src/Components/Answers/String/s_'
+// import s_7 from '../src/Components/Answers/String/s_'
+// import s_8 from '../src/Components/Answers/String/s_'
+// import s_9 from '../src/Components/Answers/String/s_'
+// import s_0 from '../src/Components/Answers/String/s_'
+
+// import s_1 from '../src/Components/Answers/String/s_'
+// import s_2 from '../src/Components/Answers/String/s_'
+// import s_3 from '../src/Components/Answers/String/s_'
+// import s_4 from '../src/Components/Answers/String/s_'
+// import s_5 from '../src/Components/Answers/String/s_'
+// import s_6 from '../src/Components/Answers/String/s_'
+// import s_7 from '../src/Components/Answers/String/s_'
+// import s_8 from '../src/Components/Answers/String/s_'
+// import s_9 from '../src/Components/Answers/String/s_'
+// import s_0 from '../src/Components/Answers/String/s_'
+
+//<------------------------------------------------>
+
+
+
 //Matrix
 //<------------------------------------------------>
 
@@ -352,6 +405,58 @@ const Routing=()=>{
       <Route  path='/a_34' component={a_34} />
       <Route  path='/a_35' component={a_35} />
       <Route  path='/a_36' component={a_36} />   
+
+      {/* String */}
+
+      <Route  path='/s_1' component={s_1} />   
+      <Route  path='/s_2' component={s_2} />   
+      <Route  path='/s_3' component={s_3} />   
+      <Route  path='/s_4' component={s_4} />   
+      <Route  path='/s_5' component={s_5} />   
+      <Route  path='/s_6' component={s_6} />   
+      <Route  path='/s_7' component={s_7} />   
+      <Route  path='/s_8' component={s_8} />   
+      <Route  path='/s_9' component={s_9} />   
+      <Route  path='/s_10' component={s_10} />   
+
+      <Route  path='/s_11' component={s_11} />   
+      <Route  path='/s_12' component={s_12} />   
+      <Route  path='/s_13' component={s_13} />   
+      <Route  path='/s_14' component={s_14} />   
+      <Route  path='/s_15' component={s_15} />   
+      <Route  path='/s_16' component={s_16} />   
+      <Route  path='/s_17' component={s_17} />   
+      <Route  path='/s_18' component={s_18} />   
+      <Route  path='/s_19' component={s_19} />   
+      <Route  path='/s_20' component={s_20} /> 
+
+      {/* <Route  path='/s_1' component={s_1} />   
+      <Route  path='/s_2' component={s_2} />   
+      <Route  path='/s_3' component={s_3} />   
+      <Route  path='/s_4' component={s_4} />   
+      <Route  path='/s_5' component={s_5} />   
+      <Route  path='/s_6' component={s_6} />   
+      <Route  path='/s_7' component={s_7} />   
+      <Route  path='/s_8' component={s_8} />   
+      <Route  path='/s_9' component={s_9} />   
+      <Route  path='/s_0' component={s_0} /> 
+
+      <Route  path='/s_1' component={s_1} />   
+      <Route  path='/s_2' component={s_2} />   
+      <Route  path='/s_3' component={s_3} />   
+      <Route  path='/s_4' component={s_4} />   
+      <Route  path='/s_5' component={s_5} />   
+      <Route  path='/s_6' component={s_6} />   
+      <Route  path='/s_7' component={s_7} />   
+      <Route  path='/s_8' component={s_8} />   
+      <Route  path='/s_9' component={s_9} />   
+      <Route  path='/s_0' component={s_0} /> 
+
+      <Route  path='/s_1' component={s_1} />   
+      <Route  path='/s_2' component={s_2} />   
+      <Route  path='/s_3' component={s_3} />    */}
+
+
 
       {/* Matrix */}
 
