@@ -6,7 +6,7 @@ const String = () => {
     <div className="div">
 
       <div className="ans_heading">
-        <h1></h1>
+        <h1>Find Duplicate characters in a string</h1>
       </div>
       <br/>
       <div className="solution">
