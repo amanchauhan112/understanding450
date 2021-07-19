@@ -86,15 +86,15 @@ int maxProfit(int price[], int n)
 
     // valley-peak approach
     /*
-                       80
-                       /
-        30            /
-       /  \          25
-      /    15       /
-     /      \      /
-    2        10   /
-               \ /
-                8
+                 80
+                 /
+        30      /
+       / |     25
+      /  15   /
+     /   |   /
+    2    10 /
+         | /
+         8
      */
     for (int i = 1; i < n; i++)
     {

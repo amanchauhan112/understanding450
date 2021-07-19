@@ -26,10 +26,6 @@ const LinkedList = () => {
 </a></h1>
 <a href="ll_4" className="answer_link">&emsp; Link to answer</a>
 
-{/* <h1><a href="" className="q"></a></h1>
-<a href="" className="answer_link">&emsp; Link to answer</a>
- */}
-
 <h1><a href="https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/" className="q">5.Find the starting point of the loop. 
 </a></h1>
 <a href="ll_5" className="answer_link">&emsp; Link to answer</a>
@@ -100,10 +96,10 @@ const LinkedList = () => {
 <h1 className="Ques" ><a href="https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/" className="q">25.Rotate a Doubly Linked list in group of Given Size.[Very IMP]</a></h1>
 <a href="/ll_25" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">26.Can we reverse a linked list in less than O(n) ?</a></h1>
+<h1 className="Ques" ><a href="ll_26" className="q">26.Can we reverse a linked list in less than O(n) ?</a></h1>
 <a href="/ll_26" className="answer_link"> &emsp; Link to answer</a>
 
-<h1 className="Ques" ><a href="" className="q">27.Why Quicksort is preferred for. Arrays and Merge Sort for LinkedLists ?</a></h1>
+<h1 className="Ques" ><a href="ll_27" className="q">27.Why Quicksort is preferred for. Arrays and Merge Sort for LinkedLists ?</a></h1>
 <a href="/ll_27" className="answer_link"> &emsp; Link to answer</a>
 
 <h1 className="Ques" ><a href="https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1" className="q">28.Flatten a Linked List</a></h1>

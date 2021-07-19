@@ -6,7 +6,7 @@ const sq = () => {
     <div className="div">
 
       <div className="ans_heading">
-        <h1></h1>
+        <h1>Sum of minimum and maximum elements of all subarrays of size “k”</h1>
       </div>
 
 <br/>

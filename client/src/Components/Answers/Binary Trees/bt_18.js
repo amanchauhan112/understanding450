@@ -7,7 +7,7 @@ const BT = () => {
     <div className="div">
 
       <div className="ans_heading">
-        <h1></h1>
+        <h1>Convert Binary tree into Doubly Linked List</h1>
       </div>
       <br/>
       <div className="solution">
