@@ -295,7 +295,7 @@ const Home = () => {
     </Card>
     </Link>
     </div>
-    <div className="home_div">
+    {/* <div className="home_div">
 <Link to={'/graph'} style={{textDecoration:"none"}}>
 
     <Card className={classes.root} style={{padding:"15px",boxShadow: '0 3px 15px 12px rgba(22, 21, 210, .3)',borderRadius: '8px'}}>
@@ -326,7 +326,7 @@ const Home = () => {
       </CardActions>
     </Card>
     </Link>
-    </div>
+    </div> */}
     {/* <Comment/> */}
    </div>
   );
