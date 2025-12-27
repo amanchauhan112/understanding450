@@ -53,7 +53,7 @@ import './navbar.css';
 
         <Nav className="navbar">
         {/* <NavHead to="/"  > */}
-  <h1 style={{display:"inline" }}  className="headddd"><a href ="/" className="headaa">Understanding 450</a></h1>
+  <h1 style={{display:"inline" }}  className="headddd"><a href ="/" className="headaa">Understanding-450</a></h1>
 {/* </NavHead> */}
 
 <NavMenu >
