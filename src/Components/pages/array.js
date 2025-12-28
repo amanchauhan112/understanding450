@@ -1,4 +1,4 @@
-import { Checkbox } from '@material-ui/core';
+import { Checkbox } from '@mui/material';
 import React from 'react';
 import './style.css';
 
@@ -148,6 +148,7 @@ const Array = () => {
  
 <h1><Checkbox/>Q36.<a href="https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/" style={{color:'black'}}>Median of 2 sorted arrays of different size</a></h1>
 <a href="/a_36" className="answer_link"> &emsp;&emsp;&emsp;&emsp;&emsp; Link to answer</a>
+     
       </div>
   );
 };
